@@ -1,0 +1,30 @@
+# Python dependencies for Digital FTE Orchestrator
+# Install with: pip install -r requirements.txt
+
+# File system monitoring
+watchdog==4.0.0
+
+# Environment variable management
+python-dotenv==1.0.0
+
+# Testing framework
+pytest==7.4.3
+
+# Optional: Enhanced logging
+colorlog==6.8.0
+
+# Optional: Task scheduling (for future enhancements)
+schedule==1.2.1
+
+
+# Gmail Watcher dependencies
+google-api-python-client==2.111.0
+google-auth-oauthlib==1.2.0
+google-auth-httplib2==0.2.0
+markdownify==0.11.6
+
+# Social Media Integration dependencies
+requests==2.31.0              # HTTP requests for API calls
+tweepy==4.14.0                # Twitter API wrapper
+facebook-sdk==3.1.0           # Facebook Graph API (optional)
+Pillow==10.0.0                # Image processing

@@ -1,0 +1,62 @@
+# .gitignore for Digital FTE System
+
+# Environment variables (NEVER commit)
+.env
+.env.local
+.env.*.local
+setup_env.bat
+nul
+
+# Google API Security
+token.json
+credentials.json
+token.pickle
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+venv_test/
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Logs
+Logs/*.log
+*.log
+
+# Archive (may contain sensitive data)
+04_Archive/
+
+# Pending approval (may contain drafts)
+02_Pending_Approval/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Database files (if using SQLite)
+*.db
+*.sqlite
+*.sqlite3
+
+# Backup files
+*.bak
+*.backup

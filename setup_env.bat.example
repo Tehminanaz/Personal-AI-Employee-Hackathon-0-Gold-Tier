@@ -1,0 +1,38 @@
+@echo off
+REM Quick setup script to create .env file with required environment variables
+REM INSTRUCTIONS: 
+REM 1. Copy this file to setup_env.bat
+REM 2. Replace YOUR_GEMINI_API_KEY_HERE with your actual API key
+REM 3. Run setup_env.bat to generate .env file
+
+echo Creating .env file...
+
+(
+echo # Environment Variables - Digital FTE
+echo # Generated: %date% %time%
+echo.
+echo # AI Configuration
+echo GEMINI_API_KEY=YOUR_GEMINI_API_KEY_HERE
+echo.
+echo # AI Provider Configuration
+echo ACTIVE_PROVIDER=BONSAI
+echo PROVIDER_PRIORITY_LIST=BONSAI,GEMINI_ROUTER,QWEN_ROUTER,KIRO,NATIVE
+echo CLAUDE_CODE_API_ENDPOINT=
+echo PROVIDER_TIMEOUT_BONSAI=600
+echo PROVIDER_TIMEOUT_ROUTER=600
+echo PROVIDER_TIMEOUT_NATIVE=600
+echo.
+echo # Application Settings
+echo ENVIRONMENT=development
+echo DEBUG=true
+echo LOG_LEVEL=INFO
+) > .env
+
+echo.
+echo ✓ .env file created successfully!
+echo.
+echo IMPORTANT: Make sure you replaced YOUR_GEMINI_API_KEY_HERE with your actual API key!
+echo.
+echo You can now run: python orchestrator.py
+echo.
+pause

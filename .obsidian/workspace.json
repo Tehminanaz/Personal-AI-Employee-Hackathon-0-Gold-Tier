@@ -1,0 +1,240 @@
+{
+  "main": {
+    "id": "396c7485609f6d9b",
+    "type": "split",
+    "children": [
+      {
+        "id": "83668dcd1d0a1a6b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e2ebbc02579025a3",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Management/Dashboard.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Dashboard"
+            }
+          },
+          {
+            "id": "c5594e1d767b35e0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Company_Handbook.md",
+                "mode": "source",
+                "source": false
+              },
+              "icon": "lucide-file",
+              "title": "Company_Handbook"
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "73e9b931f8526572",
+    "type": "split",
+    "children": [
+      {
+        "id": "18ea143648aa2d27",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "385508fa333c6579",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "ee02395678c89c7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "0d5a444841a4c4d0",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 351.5
+  },
+  "right": {
+    "id": "5bbc89b2bc0d19da",
+    "type": "split",
+    "children": [
+      {
+        "id": "9263c8407c014cab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0f34c7435b1aa213",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "04_Archive/Quick_Test_20260111_023733.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks for Quick_Test_20260111_023733"
+            }
+          },
+          {
+            "id": "269ef95f45bacb3f",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "04_Archive/Quick_Test_20260111_023733.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links from Quick_Test_20260111_023733"
+            }
+          },
+          {
+            "id": "8d574fc82e85faeb",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "93d2539f7f79c855",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
+          },
+          {
+            "id": "0927da4e6bc1ac07",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "04_Archive/Quick_Test_20260111_023733.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Outline of Quick_Test_20260111_023733"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "bases:Create new base": false
+    }
+  },
+  "active": "c5594e1d767b35e0",
+  "lastOpenFiles": [
+    "01_Needs_Action/PLAN_Email_20260114_031801_ACTION REQUIRED_Final_System_Audit.md",
+    "README.md",
+    "tmpclaude-7357-cwd",
+    "tmpclaude-d6d7-cwd",
+    "04_Archive/Email_20260114_031801_ACTION REQUIRED_ Final System Audit.md",
+    "04_Archive/PLAN_System_Audit_20260114_20260114_033335.md",
+    "04_Archive/RUN_AUDIT_20260114_032836.md",
+    "04_Archive/PLAN_APPROVED_ACTION_REQUIRED_Final_System_Audit_20260114_20260114_033730.md",
+    "03_Approved/P1_SYSTEM_Final_System_Audit_Response_20260114_031801.md",
+    "03_Approved/P0_SYSTEM_Final_System_Audit_20260114.md",
+    "03_Approved/P0_EXECUTIVE_Final_CEO_Audit_20260114.md",
+    "02_Pending_Approval/P0_SYSTEM_Critical_Final_System_Audit_20260114.md",
+    "02_Pending_Approval/2026_BUDGET_REPORT.md",
+    "04_Archive/PLAN_ACTION REQUIRED_ Final System Audit_20260114_032508.md",
+    "01_Needs_Action/PLAN_Email_20260114_031801_ACTION_REQUIRED_Final_System_Audit.md",
+    "04_Archive/PLAN_Email_20260114_031801_ACTION REQUIRED_ Final System Audit_20260114_032650.md",
+    "02_Pending_Approval/P0_SYSTEM_Final_System_Audit_20260114.md",
+    "01_Needs_Action/PLAN_ACTION_REQUIRED_Final_System_Audit_20260114.md",
+    "01_Needs_Action/PLAN_EMAIL_Audit_Request_20260114.md",
+    "01_Needs_Action/PLAN_Audit_System_Audit.md",
+    "tmpclaude-3fe8-cwd",
+    "01_Needs_Action/PLAN_ACTION REQUIRED_ Final System Audit.md",
+    "00_Inbox/PLAN_System_Audit_20260114.md",
+    "Tests/test_P0_EXECUTIVE_Final_CEO_Audit_20260114_20260114_033251.py",
+    "Tests/test_P0_FINANCIAL_2026_Annual_Budget_Report_20260114_20260114_033241.py",
+    "Tests/test_P1_FINANCIAL_2026_Budget_and_Audit_Report_20260114_20260114_033235.py",
+    "tmpclaude-15e1-cwd",
+    "03_Approved/P1_FINANCIAL_2026_Budget_and_Audit_Report_20260114.md",
+    "Tests/test_P1_SYSTEM_Final_System_Audit_Response_20260114_031801_20260114_033232.py",
+    "tmpclaude-ac29-cwd",
+    "tmpclaude-3b37-cwd",
+    "02_Pending_Approval/P1_FINANCIAL_2026_Budget_and_Audit_Report_20260114.md",
+    "00_Inbox/PLAN_APPROVED_ACTION_REQUIRED_Final_System_Audit_20260114.md",
+    "00_Inbox/PLAN_ACTION REQUIRED_ Final System Audit_20260114.md",
+    "01_Needs_Action/PLAN_ACTION REQUIRED_ Final System Audit_20260114.md",
+    "01_Needs_Action/PLAN_Audit_Report.md"
+  ]
+}
