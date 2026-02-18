@@ -1,0 +1,554 @@
+Warning: gmail_watcher not found. Email execution will fail.
+2026-01-17 23:04:04,496 - ActionExecutor - INFO - Starting Action Executor (Polling Mode)...
+2026-01-17 23:04:04,496 - ActionExecutor - INFO - Monitoring: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\03_Approved
+2026-01-17 23:08:40,524 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:41,525 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:41,534 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230841.py
+2026-01-17 23:08:41,641 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230841.py
+2026-01-17 23:08:41,642 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230841.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:08:41,642 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:08:41,664 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:08:46,669 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:47,686 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:47,688 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230847.py
+2026-01-17 23:08:47,832 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230847.py
+2026-01-17 23:08:47,833 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230847.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:08:47,833 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:08:47,860 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:08:52,881 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:53,884 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:08:53,886 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230853.py
+2026-01-17 23:08:53,990 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230853.py
+2026-01-17 23:08:53,990 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230853.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:08:53,991 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:08:54,013 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:08:59,015 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:00,017 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:00,028 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230900.py
+2026-01-17 23:09:00,133 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230900.py
+2026-01-17 23:09:00,133 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230900.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:00,133 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:00,148 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:05,150 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:06,151 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:06,160 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230906.py
+2026-01-17 23:09:06,261 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230906.py
+2026-01-17 23:09:06,261 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230906.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:06,261 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:06,285 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:11,286 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:12,288 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:12,296 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230912.py
+2026-01-17 23:09:12,565 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230912.py
+2026-01-17 23:09:12,565 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230912.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:12,565 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:12,591 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:17,591 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:18,592 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:18,594 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230918.py
+2026-01-17 23:09:18,698 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230918.py
+2026-01-17 23:09:18,698 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230918.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:18,698 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:18,723 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:23,724 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:24,729 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:24,748 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230924.py
+2026-01-17 23:09:24,836 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230924.py
+2026-01-17 23:09:24,837 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230924.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:24,837 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:24,855 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:29,856 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:30,856 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:30,858 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230930.py
+2026-01-17 23:09:30,976 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230930.py
+2026-01-17 23:09:30,976 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230930.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:30,977 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:31,001 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:36,003 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:37,004 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:37,006 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230937.py
+2026-01-17 23:09:37,096 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230937.py
+2026-01-17 23:09:37,096 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230937.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:37,096 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:37,113 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:42,114 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:43,116 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:43,116 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230943.py
+2026-01-17 23:09:43,239 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230943.py
+2026-01-17 23:09:43,240 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230943.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:43,240 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:43,263 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:48,265 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:49,266 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:49,268 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230949.py
+2026-01-17 23:09:49,393 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230949.py
+2026-01-17 23:09:49,393 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230949.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:49,393 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:49,416 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:09:54,418 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:55,419 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:09:55,419 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230955.py
+2026-01-17 23:09:55,533 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230955.py
+2026-01-17 23:09:55,533 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_230955.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:09:55,534 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:09:55,555 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:00,556 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:01,558 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:01,567 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231001.py
+2026-01-17 23:10:01,710 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231001.py
+2026-01-17 23:10:01,710 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231001.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:01,710 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:01,741 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:06,744 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:07,745 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:07,746 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231007.py
+2026-01-17 23:10:07,844 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231007.py
+2026-01-17 23:10:07,844 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231007.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:07,844 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:07,863 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:12,864 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:13,865 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:13,867 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231013.py
+2026-01-17 23:10:13,972 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231013.py
+2026-01-17 23:10:13,972 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231013.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:13,972 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:13,991 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:18,992 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:19,993 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:19,996 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231019.py
+2026-01-17 23:10:20,119 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231019.py
+2026-01-17 23:10:20,119 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231019.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:20,119 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:20,142 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:25,148 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:26,149 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:26,151 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231026.py
+2026-01-17 23:10:26,305 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231026.py
+2026-01-17 23:10:26,305 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231026.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:26,305 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:26,334 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:31,361 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:32,366 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:32,369 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231032.py
+2026-01-17 23:10:32,511 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231032.py
+2026-01-17 23:10:32,512 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231032.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:32,512 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:32,542 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:37,543 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:38,544 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:38,546 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231038.py
+2026-01-17 23:10:38,666 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231038.py
+2026-01-17 23:10:38,666 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231038.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:38,666 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:38,690 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:43,691 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:44,693 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:44,696 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231044.py
+2026-01-17 23:10:44,859 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231044.py
+2026-01-17 23:10:44,859 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231044.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:44,859 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:44,898 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:49,902 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:50,903 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:50,910 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231050.py
+2026-01-17 23:10:51,004 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231050.py
+2026-01-17 23:10:51,004 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231050.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:51,004 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:51,019 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:10:56,021 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:57,022 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:10:57,023 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231057.py
+2026-01-17 23:10:57,115 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231057.py
+2026-01-17 23:10:57,115 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231057.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:10:57,115 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:10:57,134 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:02,136 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:03,137 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:03,139 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231103.py
+2026-01-17 23:11:03,245 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231103.py
+2026-01-17 23:11:03,245 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231103.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:03,245 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:03,263 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:08,265 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:09,267 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:09,272 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231109.py
+2026-01-17 23:11:09,438 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231109.py
+2026-01-17 23:11:09,438 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231109.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:09,438 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:09,472 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:14,474 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:15,476 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:15,477 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231115.py
+2026-01-17 23:11:15,781 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231115.py
+2026-01-17 23:11:15,782 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231115.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:15,782 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:15,809 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:20,811 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:21,812 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:21,815 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231121.py
+2026-01-17 23:11:21,965 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231121.py
+2026-01-17 23:11:21,965 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231121.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:21,965 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:21,997 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:26,999 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:28,000 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:28,002 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231128.py
+2026-01-17 23:11:28,120 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231128.py
+2026-01-17 23:11:28,120 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231128.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:28,120 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:28,152 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:33,153 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:34,154 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:34,157 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231134.py
+2026-01-17 23:11:34,275 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231134.py
+2026-01-17 23:11:34,275 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231134.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:34,275 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:34,296 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:39,297 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:40,298 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:40,301 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231140.py
+2026-01-17 23:11:40,418 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231140.py
+2026-01-17 23:11:40,418 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231140.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:40,419 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:40,449 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:45,464 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:46,465 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:46,467 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231146.py
+2026-01-17 23:11:46,569 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231146.py
+2026-01-17 23:11:46,569 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231146.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:46,569 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:46,594 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:51,595 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:52,596 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:52,598 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231152.py
+2026-01-17 23:11:52,714 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231152.py
+2026-01-17 23:11:52,714 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231152.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:52,715 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:52,744 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:11:57,744 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:58,746 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:11:58,749 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231158.py
+2026-01-17 23:11:58,865 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231158.py
+2026-01-17 23:11:58,865 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231158.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:11:58,866 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:11:58,886 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:03,886 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:04,889 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:04,900 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231204.py
+2026-01-17 23:12:05,046 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231204.py
+2026-01-17 23:12:05,046 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231204.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:05,046 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:05,077 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:10,079 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:11,080 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:11,081 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231211.py
+2026-01-17 23:12:11,191 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231211.py
+2026-01-17 23:12:11,192 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231211.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:11,192 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:11,211 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:16,212 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:17,223 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:17,223 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231217.py
+2026-01-17 23:12:17,548 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231217.py
+2026-01-17 23:12:17,548 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231217.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:17,551 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:17,572 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:22,602 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:23,603 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:23,604 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231223.py
+2026-01-17 23:12:23,730 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231223.py
+2026-01-17 23:12:23,731 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231223.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:23,731 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:23,756 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:28,778 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:29,784 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:29,786 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231229.py
+2026-01-17 23:12:29,904 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231229.py
+2026-01-17 23:12:29,904 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231229.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:29,905 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:29,933 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:34,935 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:35,938 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:35,948 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231235.py
+2026-01-17 23:12:36,126 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231235.py
+2026-01-17 23:12:36,126 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231235.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:36,126 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:36,159 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:41,184 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:42,185 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:42,187 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231242.py
+2026-01-17 23:12:42,296 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231242.py
+2026-01-17 23:12:42,297 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231242.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:42,297 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:42,322 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:47,324 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:48,325 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:48,333 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231248.py
+2026-01-17 23:12:48,458 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231248.py
+2026-01-17 23:12:48,460 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231248.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:48,460 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:48,487 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:53,488 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:54,490 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:12:54,491 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231254.py
+2026-01-17 23:12:54,611 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231254.py
+2026-01-17 23:12:54,611 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231254.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:12:54,611 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:12:54,636 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:12:59,637 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:00,638 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:00,641 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231300.py
+2026-01-17 23:13:00,761 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231300.py
+2026-01-17 23:13:00,761 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231300.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:00,761 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:00,791 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:05,793 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:06,795 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:06,802 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231306.py
+2026-01-17 23:13:06,941 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231306.py
+2026-01-17 23:13:06,941 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231306.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:06,941 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:06,974 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:11,976 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:12,977 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:12,978 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231312.py
+2026-01-17 23:13:13,076 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231312.py
+2026-01-17 23:13:13,077 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231312.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:13,077 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:13,097 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:18,099 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:19,099 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:19,101 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231319.py
+2026-01-17 23:13:19,217 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231319.py
+2026-01-17 23:13:19,217 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231319.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:19,217 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:19,242 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:24,251 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:25,264 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:25,272 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231325.py
+2026-01-17 23:13:25,378 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231325.py
+2026-01-17 23:13:25,378 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231325.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:25,378 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:25,401 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:30,403 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:31,404 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:31,406 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231331.py
+2026-01-17 23:13:31,535 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231331.py
+2026-01-17 23:13:31,535 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231331.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:31,535 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:31,575 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:36,581 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:37,584 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:37,589 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231337.py
+2026-01-17 23:13:37,731 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231337.py
+2026-01-17 23:13:37,732 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231337.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:37,732 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:37,756 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:42,758 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:43,759 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md
+2026-01-17 23:13:43,761 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231343.py
+2026-01-17 23:13:43,861 - ActionExecutor - ERROR - Tests failed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231343.py
+2026-01-17 23:13:43,861 - ActionExecutor - ERROR - Error: Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240_20260117_231343.py", line 8, in <module>
+    import pytest
+ModuleNotFoundError: No module named 'pytest'
+
+2026-01-17 23:13:43,861 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260117_230240.md. Task not executed.
+2026-01-17 23:13:43,885 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-17 23:13:45,392 - ActionExecutor - INFO - Stopping Action Executor...

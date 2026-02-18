@@ -1,0 +1,12 @@
+2026-01-18 01:54:59,631 - RalphLoop - INFO - Initialized Ralph Wiggum Loop
+2026-01-18 01:54:59,632 - RalphLoop - INFO - Max Iterations: 50
+2026-01-18 01:54:59,633 - RalphLoop - INFO - Iteration Delay: 3s
+2026-01-18 01:54:59,633 - RalphLoop - INFO - Dry Run: False
+2026-01-18 01:54:59,633 - RalphLoop - INFO - ================================================================================
+2026-01-18 01:54:59,648 - RalphLoop - INFO - ================================================================================
+2026-01-18 01:54:59,648 - RalphLoop - INFO - 
+2026-01-18 01:54:59,649 - RalphLoop - INFO - ================================================================================
+2026-01-18 01:54:59,650 - RalphLoop - INFO - ================================================================================
+2026-01-18 01:55:02,704 - root - WARNING - Could not import Action Executor. Actions will not be processed.
+2026-01-18 01:55:02,710 - Orchestrator - INFO - Processing new file: [URGENT]_Email_20260118_015222_Fwd_ URGENT_ Request for AI Project Proposal.md
+2026-01-18 01:55:02,711 - Orchestrator - INFO - Executing 'ccr code' for: [URGENT]_Email_20260118_015222_Fwd_ URGENT_ Request for AI Project Proposal.md

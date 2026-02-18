@@ -39,8 +39,9 @@ try:
         get_env_var,
         validate_text_length
     )
+    from social_media_summary import add_post_summary
 except ImportError:
-    print("Error: social_media_utils.py not found")
+    print("Error: social_media_utils.py or social_media_summary.py not found")
     sys.exit(1)
 
 # Load environment variables
@@ -70,14 +71,16 @@ TWITTER_CHAR_LIMIT = 280
 class TwitterPoster:
     """Handles posting to Twitter/X."""
     
-    def __init__(self, dry_run: bool = False):
+    def __init__(self, dry_run: bool = False, generate_summary: bool = False):
         """
         Initialize Twitter Poster.
         
         Args:
             dry_run: If True, simulate posting without actual API calls
+            generate_summary: If True, add post to summary file
         """
         self.dry_run = dry_run
+        self.generate_summary = generate_summary
         self.client = None
         
         if not dry_run:
@@ -143,6 +146,16 @@ class TwitterPoster:
                     "length": len(text)
                 }
             )
+            
+            # Add to summary if requested
+            if self.generate_summary:
+                add_post_summary(
+                    platform="TWITTER",
+                    post_id=tweet_id,
+                    content_preview=text[:80],
+                    post_type="tweet",
+                    metrics={"length": len(text)}
+                )
             
             return True
             
@@ -219,6 +232,16 @@ class TwitterPoster:
                 }
             )
             
+            # Add to summary if requested
+            if self.generate_summary:
+                add_post_summary(
+                    platform="TWITTER",
+                    post_id=tweet_ids[0],  # First tweet ID
+                    content_preview=tweets[0][:80],
+                    post_type="thread",
+                    metrics={"tweet_count": len(tweet_ids)}
+                )
+            
             return True
             
         except Exception as e:
@@ -273,6 +296,7 @@ def main():
     parser = argparse.ArgumentParser(description="Post to Twitter/X")
     parser.add_argument("content", help="Tweet content (markdown format)")
     parser.add_argument("--dry-run", action="store_true", help="Simulate without posting")
+    parser.add_argument("--summary", action="store_true", help="Generate post summary")
     args = parser.parse_args()
     
     logger.info("=" * 60)
@@ -286,7 +310,7 @@ def main():
         thread = parsed["thread"]
         
         # Initialize poster
-        poster = TwitterPoster(dry_run=args.dry_run)
+        poster = TwitterPoster(dry_run=args.dry_run, generate_summary=args.summary)
         
         # Post based on content type
         if thread:

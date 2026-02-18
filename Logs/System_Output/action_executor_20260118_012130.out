@@ -1,0 +1,1027 @@
+2026-01-18 01:21:32,296 - ActionExecutor - INFO - Starting Action Executor (Polling Mode)...
+2026-01-18 01:21:32,297 - ActionExecutor - INFO - Monitoring: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\03_Approved
+2026-01-18 01:25:17,365 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:18,366 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:18,368 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012518.py
+2026-01-18 01:25:23,347 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012518.py
+2026-01-18 01:25:23,348 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:25:23,348 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:25:23,353 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:25:23,395 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:25:28,396 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:29,397 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:29,399 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012529.py
+2026-01-18 01:25:31,761 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012529.py
+2026-01-18 01:25:31,762 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:25:31,762 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:25:31,764 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:25:31,947 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:25:36,950 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:37,952 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:37,952 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012537.py
+2026-01-18 01:25:41,241 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012537.py
+2026-01-18 01:25:41,241 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:25:41,242 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:25:41,243 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:25:41,278 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:25:46,331 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:47,339 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:47,340 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012547.py
+2026-01-18 01:25:49,495 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012547.py
+2026-01-18 01:25:49,495 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:25:49,495 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:25:49,495 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:25:49,527 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:25:54,528 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:55,530 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:25:55,531 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012555.py
+2026-01-18 01:25:56,965 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012555.py
+2026-01-18 01:25:56,965 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:25:56,965 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:25:56,967 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:25:56,995 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:01,997 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:02,997 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:03,005 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012602.py
+2026-01-18 01:26:04,173 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012602.py
+2026-01-18 01:26:04,173 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:04,173 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:04,173 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:04,199 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:09,200 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:10,201 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:10,203 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012610.py
+2026-01-18 01:26:11,612 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012610.py
+2026-01-18 01:26:11,613 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:11,613 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:11,613 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:11,643 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:16,645 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:17,646 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:17,648 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012617.py
+2026-01-18 01:26:19,291 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012617.py
+2026-01-18 01:26:19,291 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:19,292 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:19,292 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:19,316 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:24,317 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:25,319 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:25,324 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012625.py
+2026-01-18 01:26:26,758 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012625.py
+2026-01-18 01:26:26,758 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:26,759 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:26,760 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:26,800 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:31,802 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:32,804 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:32,806 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012632.py
+2026-01-18 01:26:34,233 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012632.py
+2026-01-18 01:26:34,233 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:34,233 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:34,234 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:34,285 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:39,287 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:40,291 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:40,295 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012640.py
+2026-01-18 01:26:43,014 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012640.py
+2026-01-18 01:26:43,014 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:43,014 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:43,015 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:43,042 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:48,044 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:49,045 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:49,048 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012649.py
+2026-01-18 01:26:51,337 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012649.py
+2026-01-18 01:26:51,337 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:51,337 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:51,337 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:51,373 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:26:56,376 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:57,377 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:26:57,379 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012657.py
+2026-01-18 01:26:59,037 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012657.py
+2026-01-18 01:26:59,037 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:26:59,038 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:26:59,038 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:26:59,056 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:04,057 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:05,058 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:05,059 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012705.py
+2026-01-18 01:27:06,262 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012705.py
+2026-01-18 01:27:06,262 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:06,262 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:06,263 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:06,289 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:11,290 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:12,291 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:12,293 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012712.py
+2026-01-18 01:27:13,580 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012712.py
+2026-01-18 01:27:13,580 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:13,580 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:13,581 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:13,617 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:18,619 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:19,621 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:19,626 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012719.py
+2026-01-18 01:27:21,282 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012719.py
+2026-01-18 01:27:21,283 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:21,283 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:21,283 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:21,312 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:26,313 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:27,315 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:27,316 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012727.py
+2026-01-18 01:27:28,652 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012727.py
+2026-01-18 01:27:28,652 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:28,652 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:28,653 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:28,664 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:33,666 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:34,668 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:34,670 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012734.py
+2026-01-18 01:27:35,974 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012734.py
+2026-01-18 01:27:35,974 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:35,974 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:35,974 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:36,000 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:41,001 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:42,002 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:42,006 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012742.py
+2026-01-18 01:27:44,449 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012742.py
+2026-01-18 01:27:44,450 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:44,450 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:44,451 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:44,466 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:49,467 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:50,469 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:50,470 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012750.py
+2026-01-18 01:27:51,688 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012750.py
+2026-01-18 01:27:51,688 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:51,688 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:51,689 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:51,691 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:27:56,692 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:57,693 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:27:57,695 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012757.py
+2026-01-18 01:27:59,059 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012757.py
+2026-01-18 01:27:59,059 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:27:59,059 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:27:59,059 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:27:59,080 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:04,082 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:05,083 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:05,085 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012805.py
+2026-01-18 01:28:06,563 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012805.py
+2026-01-18 01:28:06,563 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:06,563 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:06,564 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:06,584 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:11,586 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:12,587 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:12,591 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012812.py
+2026-01-18 01:28:13,818 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012812.py
+2026-01-18 01:28:13,818 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:13,818 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:13,819 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:13,843 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:18,845 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:19,846 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:19,850 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012819.py
+2026-01-18 01:28:21,758 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012819.py
+2026-01-18 01:28:21,758 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:21,758 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:21,758 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:21,773 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:26,774 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:27,776 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:27,777 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012827.py
+2026-01-18 01:28:29,103 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012827.py
+2026-01-18 01:28:29,103 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:29,103 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:29,104 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:29,119 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:34,120 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:35,123 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:35,127 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012835.py
+2026-01-18 01:28:36,281 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012835.py
+2026-01-18 01:28:36,281 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:36,281 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:36,281 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:36,314 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:41,332 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:42,333 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:42,335 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012842.py
+2026-01-18 01:28:45,151 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012842.py
+2026-01-18 01:28:45,152 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:45,152 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:45,152 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:45,177 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:50,178 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:51,180 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:51,189 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012851.py
+2026-01-18 01:28:52,490 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012851.py
+2026-01-18 01:28:52,490 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:28:52,490 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:28:52,490 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:28:52,506 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:28:57,507 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:58,519 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:28:58,522 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012858.py
+2026-01-18 01:29:01,240 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012858.py
+2026-01-18 01:29:01,240 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:01,240 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:01,241 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:01,269 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:06,270 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:07,271 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:07,273 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012907.py
+2026-01-18 01:29:09,162 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012907.py
+2026-01-18 01:29:09,162 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:09,162 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:09,164 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:09,187 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:14,190 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:15,223 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:15,228 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012915.py
+2026-01-18 01:29:17,323 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012915.py
+2026-01-18 01:29:17,323 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:17,323 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:17,323 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:17,327 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:22,327 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:23,328 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:23,330 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012923.py
+2026-01-18 01:29:24,500 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012923.py
+2026-01-18 01:29:24,500 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:24,500 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:24,501 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:24,518 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:29,518 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:30,520 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:30,522 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012930.py
+2026-01-18 01:29:32,597 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012930.py
+2026-01-18 01:29:32,597 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:32,597 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:32,598 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:32,620 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:37,621 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:38,623 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:38,629 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012938.py
+2026-01-18 01:29:40,218 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012938.py
+2026-01-18 01:29:40,218 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:40,218 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:40,219 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:40,243 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:45,244 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:46,244 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:46,253 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012946.py
+2026-01-18 01:29:47,632 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012946.py
+2026-01-18 01:29:47,632 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:47,632 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:47,633 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:47,648 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:29:52,650 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:53,650 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:29:53,652 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012953.py
+2026-01-18 01:29:55,245 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_012953.py
+2026-01-18 01:29:55,246 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:29:55,246 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:29:55,246 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:29:55,267 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:00,268 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:01,269 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:01,271 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013001.py
+2026-01-18 01:30:02,663 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013001.py
+2026-01-18 01:30:02,664 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:02,664 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:02,665 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:02,688 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:07,690 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:08,692 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:08,705 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013008.py
+2026-01-18 01:30:10,130 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013008.py
+2026-01-18 01:30:10,130 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:10,130 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:10,131 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:10,149 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:15,149 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:16,150 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:16,152 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013016.py
+2026-01-18 01:30:17,421 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013016.py
+2026-01-18 01:30:17,421 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:17,422 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:17,422 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:17,438 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:22,439 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:23,440 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:23,443 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013023.py
+2026-01-18 01:30:24,960 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013023.py
+2026-01-18 01:30:24,960 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:24,960 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:24,961 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:24,978 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:29,979 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:30,980 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:30,986 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013030.py
+2026-01-18 01:30:32,905 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013030.py
+2026-01-18 01:30:32,905 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:32,906 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:32,907 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:32,935 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:37,936 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:38,937 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:38,938 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013038.py
+2026-01-18 01:30:40,885 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013038.py
+2026-01-18 01:30:40,885 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:40,886 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:40,887 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:40,915 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:45,915 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:46,917 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:46,919 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013046.py
+2026-01-18 01:30:48,164 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013046.py
+2026-01-18 01:30:48,165 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:48,165 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:48,165 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:48,185 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:30:53,186 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:54,187 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:30:54,188 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013054.py
+2026-01-18 01:30:55,570 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013054.py
+2026-01-18 01:30:55,571 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:30:55,571 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:30:55,572 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:30:55,596 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:00,599 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:01,605 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:01,608 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013101.py
+2026-01-18 01:31:03,250 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013101.py
+2026-01-18 01:31:03,250 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:03,250 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:03,250 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:03,253 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:08,254 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:09,277 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:09,297 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013109.py
+2026-01-18 01:31:11,598 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013109.py
+2026-01-18 01:31:11,598 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:11,598 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:11,598 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:11,620 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:16,622 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:17,623 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:17,623 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013117.py
+2026-01-18 01:31:18,837 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013117.py
+2026-01-18 01:31:18,837 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:18,837 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:18,839 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:18,854 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:23,855 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:24,857 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:24,860 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013124.py
+2026-01-18 01:31:25,961 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013124.py
+2026-01-18 01:31:25,961 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:25,961 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:25,962 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:25,978 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:30,980 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:31,981 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:31,985 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013131.py
+2026-01-18 01:31:33,383 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013131.py
+2026-01-18 01:31:33,384 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:33,384 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:33,385 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:33,405 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:38,406 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:39,407 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:39,414 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013139.py
+2026-01-18 01:31:40,601 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013139.py
+2026-01-18 01:31:40,601 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:40,601 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:40,601 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:40,620 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:45,621 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:46,622 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:46,623 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013146.py
+2026-01-18 01:31:47,928 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013146.py
+2026-01-18 01:31:47,930 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:47,930 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:47,930 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:47,947 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:31:52,948 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:53,950 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:31:53,952 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013153.py
+2026-01-18 01:31:55,687 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013153.py
+2026-01-18 01:31:55,687 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:31:55,687 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:31:55,688 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:31:55,691 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:00,692 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:01,693 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:01,695 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013201.py
+2026-01-18 01:32:02,810 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013201.py
+2026-01-18 01:32:02,810 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:02,810 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:02,811 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:02,827 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:07,828 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:08,829 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:08,831 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013208.py
+2026-01-18 01:32:10,269 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013208.py
+2026-01-18 01:32:10,269 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:10,269 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:10,269 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:10,287 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:15,303 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:16,304 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:16,312 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013216.py
+2026-01-18 01:32:17,921 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013216.py
+2026-01-18 01:32:17,921 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:17,922 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:17,922 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:17,925 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:22,927 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:23,929 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:23,931 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013223.py
+2026-01-18 01:32:25,650 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013223.py
+2026-01-18 01:32:25,650 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:25,650 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:25,650 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:25,670 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:30,671 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:31,674 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:31,683 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013231.py
+2026-01-18 01:32:33,268 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013231.py
+2026-01-18 01:32:33,268 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:33,269 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:33,269 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:33,290 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:38,291 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:39,294 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:39,298 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013239.py
+2026-01-18 01:32:41,431 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013239.py
+2026-01-18 01:32:41,431 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:41,431 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:41,433 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:41,456 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:46,459 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:47,460 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:47,461 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013247.py
+2026-01-18 01:32:48,672 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013247.py
+2026-01-18 01:32:48,672 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:48,672 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:48,672 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:48,691 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:32:53,693 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:54,695 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:32:54,696 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013254.py
+2026-01-18 01:32:56,124 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013254.py
+2026-01-18 01:32:56,124 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:32:56,124 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:32:56,124 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:32:56,142 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:01,143 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:02,144 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:02,146 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013302.py
+2026-01-18 01:33:04,319 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013302.py
+2026-01-18 01:33:04,319 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:04,320 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:04,320 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:04,353 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:09,355 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:10,393 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:10,399 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013310.py
+2026-01-18 01:33:12,739 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013310.py
+2026-01-18 01:33:12,740 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:12,740 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:12,740 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:12,773 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:17,778 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:18,779 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:18,780 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013318.py
+2026-01-18 01:33:20,208 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013318.py
+2026-01-18 01:33:20,209 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:20,209 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:20,209 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:20,229 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:25,230 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:26,238 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:26,243 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013326.py
+2026-01-18 01:33:27,571 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013326.py
+2026-01-18 01:33:27,571 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:27,572 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:27,572 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:27,589 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:32,590 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:33,591 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:33,593 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013333.py
+2026-01-18 01:33:34,957 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013333.py
+2026-01-18 01:33:34,958 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:34,958 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:34,958 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:34,977 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:39,977 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:40,978 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:40,987 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013340.py
+2026-01-18 01:33:42,200 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013340.py
+2026-01-18 01:33:42,200 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:42,200 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:42,201 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:42,220 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:47,221 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:48,222 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:48,223 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013348.py
+2026-01-18 01:33:50,473 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013348.py
+2026-01-18 01:33:50,473 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:50,473 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:50,473 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:50,495 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:33:55,496 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:56,497 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:33:56,503 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013356.py
+2026-01-18 01:33:57,831 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013356.py
+2026-01-18 01:33:57,831 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:33:57,831 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:33:57,831 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:33:57,851 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:02,852 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:03,853 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:03,855 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013403.py
+2026-01-18 01:34:05,292 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013403.py
+2026-01-18 01:34:05,292 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:05,292 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:05,293 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:05,311 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:10,312 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:11,314 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:11,317 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013411.py
+2026-01-18 01:34:12,387 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013411.py
+2026-01-18 01:34:12,387 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:12,387 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:12,387 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:12,405 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:17,406 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:18,406 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:18,414 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013418.py
+2026-01-18 01:34:20,336 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013418.py
+2026-01-18 01:34:20,336 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:20,336 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:20,336 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:20,356 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:25,358 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:26,360 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:26,364 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013426.py
+2026-01-18 01:34:27,660 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013426.py
+2026-01-18 01:34:27,660 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:27,660 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:27,661 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:27,686 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:32,690 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:33,690 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:33,692 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013433.py
+2026-01-18 01:34:35,150 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013433.py
+2026-01-18 01:34:35,150 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:35,151 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:35,151 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:35,173 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:40,174 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:41,176 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:41,177 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013441.py
+2026-01-18 01:34:42,381 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013441.py
+2026-01-18 01:34:42,381 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:42,381 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:42,381 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:42,400 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:47,402 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:48,403 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:48,407 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013448.py
+2026-01-18 01:34:49,736 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013448.py
+2026-01-18 01:34:49,737 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:49,737 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:49,737 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:49,761 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:34:54,762 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:55,763 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:34:55,765 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013455.py
+2026-01-18 01:34:56,873 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013455.py
+2026-01-18 01:34:56,880 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:34:56,880 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:34:56,881 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:34:56,900 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:01,902 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:02,903 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:02,904 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013502.py
+2026-01-18 01:35:04,257 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013502.py
+2026-01-18 01:35:04,257 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:04,257 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:04,257 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:04,277 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:09,279 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:10,281 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:10,283 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013510.py
+2026-01-18 01:35:11,657 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013510.py
+2026-01-18 01:35:11,658 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:11,658 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:11,658 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:11,684 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:16,686 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:17,688 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:17,697 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013517.py
+2026-01-18 01:35:18,856 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013517.py
+2026-01-18 01:35:18,856 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:18,856 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:18,856 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:18,877 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:23,879 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:24,880 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:24,883 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013524.py
+2026-01-18 01:35:26,253 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013524.py
+2026-01-18 01:35:26,253 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:26,253 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:26,254 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:26,281 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:31,282 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:32,283 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:32,285 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013532.py
+2026-01-18 01:35:33,759 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013532.py
+2026-01-18 01:35:33,759 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:33,760 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:33,760 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:33,781 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:38,783 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:39,784 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:39,787 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013539.py
+2026-01-18 01:35:41,021 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013539.py
+2026-01-18 01:35:41,021 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:41,021 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:41,022 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:41,041 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:46,042 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:47,043 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:47,045 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013547.py
+2026-01-18 01:35:48,162 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013547.py
+2026-01-18 01:35:48,162 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:48,162 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:48,162 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:48,184 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:35:53,185 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:54,187 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:35:54,190 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013554.py
+2026-01-18 01:35:55,470 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013554.py
+2026-01-18 01:35:55,470 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:35:55,470 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:35:55,471 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:35:55,491 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:00,494 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:01,499 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:01,501 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013601.py
+2026-01-18 01:36:03,502 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013601.py
+2026-01-18 01:36:03,502 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:03,502 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:03,503 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:03,521 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:08,524 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:09,526 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:09,530 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013609.py
+2026-01-18 01:36:10,960 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013609.py
+2026-01-18 01:36:10,960 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:10,961 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:10,961 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:10,982 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:15,983 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:16,984 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:16,985 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013616.py
+2026-01-18 01:36:18,183 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013616.py
+2026-01-18 01:36:18,183 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:18,184 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:18,184 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:18,207 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:23,208 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:24,209 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:24,210 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013624.py
+2026-01-18 01:36:25,420 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013624.py
+2026-01-18 01:36:25,420 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:25,420 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:25,421 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:25,441 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:30,442 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:31,444 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:31,446 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013631.py
+2026-01-18 01:36:32,621 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013631.py
+2026-01-18 01:36:32,621 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:32,621 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:32,621 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:32,642 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:37,644 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:38,645 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:38,646 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013638.py
+2026-01-18 01:36:40,162 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013638.py
+2026-01-18 01:36:40,162 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:40,163 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:40,163 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:40,183 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:45,184 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:46,185 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:46,187 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013646.py
+2026-01-18 01:36:47,507 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013646.py
+2026-01-18 01:36:47,507 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:47,507 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:47,507 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:47,526 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:52,528 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:53,529 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:36:53,531 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013653.py
+2026-01-18 01:36:54,761 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013653.py
+2026-01-18 01:36:54,761 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:36:54,761 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:36:54,761 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:36:54,795 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:36:59,805 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:00,807 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:00,811 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013700.py
+2026-01-18 01:37:02,052 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013700.py
+2026-01-18 01:37:02,052 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:02,052 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:02,053 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:02,073 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:07,129 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:08,137 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:08,144 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013708.py
+2026-01-18 01:37:11,666 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013708.py
+2026-01-18 01:37:11,666 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:11,666 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:11,667 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:11,708 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:16,709 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:17,711 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:17,715 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013717.py
+2026-01-18 01:37:20,043 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013717.py
+2026-01-18 01:37:20,045 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:20,045 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:20,045 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:20,078 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:25,079 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:26,081 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:26,081 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013726.py
+2026-01-18 01:37:27,577 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013726.py
+2026-01-18 01:37:27,577 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:27,577 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:27,577 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:27,604 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:32,605 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:33,606 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:33,607 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013733.py
+2026-01-18 01:37:35,032 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013733.py
+2026-01-18 01:37:35,032 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:35,032 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:35,033 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:35,064 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:40,066 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:41,067 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:41,074 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013741.py
+2026-01-18 01:37:42,517 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013741.py
+2026-01-18 01:37:42,517 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:42,517 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:42,518 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:42,542 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:47,543 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:48,545 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:48,553 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013748.py
+2026-01-18 01:37:50,270 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013748.py
+2026-01-18 01:37:50,270 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:50,271 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:50,271 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:50,305 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:37:55,307 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:56,308 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:37:56,309 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013756.py
+2026-01-18 01:37:58,459 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013756.py
+2026-01-18 01:37:58,459 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:37:58,459 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:37:58,459 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:37:58,482 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:03,483 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:04,485 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:04,488 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013804.py
+2026-01-18 01:38:06,754 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013804.py
+2026-01-18 01:38:06,754 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:06,754 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:06,755 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:06,786 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:11,788 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:12,789 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:12,798 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013812.py
+2026-01-18 01:38:14,292 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013812.py
+2026-01-18 01:38:14,292 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:14,292 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:14,293 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:14,317 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:19,334 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:20,335 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:20,336 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013820.py
+2026-01-18 01:38:21,887 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013820.py
+2026-01-18 01:38:21,887 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:21,887 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:21,890 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:21,916 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:26,917 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:27,918 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:27,921 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013827.py
+2026-01-18 01:38:29,426 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013827.py
+2026-01-18 01:38:29,426 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:29,426 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:29,426 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:29,443 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:34,445 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:35,447 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:35,450 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013835.py
+2026-01-18 01:38:37,289 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013835.py
+2026-01-18 01:38:37,289 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:37,289 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:37,289 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:37,309 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:42,391 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:43,395 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:43,397 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013843.py
+2026-01-18 01:38:48,203 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013843.py
+2026-01-18 01:38:48,203 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:48,204 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:48,205 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:48,246 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:38:53,249 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:54,253 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:38:54,255 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013854.py
+2026-01-18 01:38:56,922 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013854.py
+2026-01-18 01:38:56,922 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:38:56,923 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:38:56,923 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:38:56,956 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:01,958 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:02,959 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:02,961 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013902.py
+2026-01-18 01:39:04,908 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013902.py
+2026-01-18 01:39:04,908 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:04,908 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:04,909 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:04,928 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:09,930 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:10,931 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:10,945 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013910.py
+2026-01-18 01:39:12,362 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013910.py
+2026-01-18 01:39:12,362 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:12,362 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:12,363 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:12,393 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:17,395 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:18,396 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:18,398 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013918.py
+2026-01-18 01:39:19,738 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013918.py
+2026-01-18 01:39:19,739 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:19,740 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:19,741 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:19,763 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:24,765 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:25,766 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:25,768 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013925.py
+2026-01-18 01:39:27,739 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013925.py
+2026-01-18 01:39:27,739 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:27,739 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:27,739 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:27,762 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:32,763 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:33,764 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:33,779 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013933.py
+2026-01-18 01:39:37,291 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013933.py
+2026-01-18 01:39:37,294 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:37,294 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:37,295 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:37,326 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:42,335 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:43,336 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:43,339 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013943.py
+2026-01-18 01:39:44,443 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013943.py
+2026-01-18 01:39:44,443 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:44,443 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:44,443 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:44,464 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:49,465 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:50,466 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:50,468 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013950.py
+2026-01-18 01:39:52,234 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013950.py
+2026-01-18 01:39:52,234 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:39:52,235 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:39:52,235 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:39:52,265 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:39:57,267 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:58,272 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:39:58,274 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013958.py
+2026-01-18 01:40:00,888 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_013958.py
+2026-01-18 01:40:00,888 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:00,888 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:00,890 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:00,922 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:05,923 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:06,925 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:06,935 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014006.py
+2026-01-18 01:40:08,493 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014006.py
+2026-01-18 01:40:08,495 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:08,495 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:08,496 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:08,518 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:13,519 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:14,520 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:14,523 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014014.py
+2026-01-18 01:40:16,110 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014014.py
+2026-01-18 01:40:16,111 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:16,111 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:16,111 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:16,140 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:21,143 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:22,144 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:22,146 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014022.py
+2026-01-18 01:40:24,500 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014022.py
+2026-01-18 01:40:24,502 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:24,502 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:24,502 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:24,527 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:29,529 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:30,531 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:30,541 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014030.py
+2026-01-18 01:40:33,608 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014030.py
+2026-01-18 01:40:33,609 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:33,609 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:33,610 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:33,646 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:38,648 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:39,651 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:39,653 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014039.py
+2026-01-18 01:40:41,115 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014039.py
+2026-01-18 01:40:41,115 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:41,117 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:41,117 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:41,141 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:46,156 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:47,157 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:47,159 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014047.py
+2026-01-18 01:40:48,743 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014047.py
+2026-01-18 01:40:48,743 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:48,743 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:48,744 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:48,772 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:40:53,773 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:54,774 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:40:54,775 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014054.py
+2026-01-18 01:40:56,437 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014054.py
+2026-01-18 01:40:56,437 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:40:56,437 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:40:56,437 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:40:56,464 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:01,493 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:02,494 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:02,504 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014102.py
+2026-01-18 01:41:03,905 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014102.py
+2026-01-18 01:41:03,905 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:03,906 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:03,906 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:03,940 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:08,942 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:09,943 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:09,953 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014109.py
+2026-01-18 01:41:11,439 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014109.py
+2026-01-18 01:41:11,439 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:11,439 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:11,439 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:11,459 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:16,461 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:17,462 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:17,464 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014117.py
+2026-01-18 01:41:18,865 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014117.py
+2026-01-18 01:41:18,865 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:18,865 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:18,865 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:18,895 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:23,896 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:24,897 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:24,905 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014124.py
+2026-01-18 01:41:26,595 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014124.py
+2026-01-18 01:41:26,596 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:26,596 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:26,596 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:26,621 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:31,623 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:32,626 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:32,637 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014132.py
+2026-01-18 01:41:33,927 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014132.py
+2026-01-18 01:41:33,927 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:33,927 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:33,927 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:33,948 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:38,950 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:39,951 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 01:41:39,954 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014139.py
+2026-01-18 01:41:41,076 - ActionExecutor - INFO - Tests passed for: test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_014139.py
+2026-01-18 01:41:41,076 - ActionExecutor - INFO - Determining type for: 'P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md'
+2026-01-18 01:41:41,076 - ActionExecutor - INFO - Executing Email Task...
+2026-01-18 01:41:41,076 - ActionExecutor - ERROR - Could not find recipient address.
+2026-01-18 01:41:41,102 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 01:41:41,690 - ActionExecutor - INFO - Stopping Action Executor...

@@ -1,0 +1,8 @@
+2026-01-18 01:21:32,296 - GmailWatcher - INFO - Starting Gmail Watcher...
+2026-01-18 01:21:32,331 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-18 01:21:32,334 - GmailWatcher - INFO - Authenticated successfully. Polling every 10 seconds.
+2026-01-18 01:21:34,083 - GmailWatcher - INFO - Found 1 unread messages.
+2026-01-18 01:21:34,277 - GmailWatcher - INFO - Processing email: Fwd: URGENT: Request for AI Project Proposal from Tehmina Naz <tn0457584@gmail.com>
+2026-01-18 01:21:34,278 - GmailWatcher - INFO - Marking as URGENT: Fwd: URGENT: Request for AI Project Proposal
+2026-01-18 01:21:34,294 - GmailWatcher - INFO - Saved task to: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\00_Inbox\[URGENT]_Email_20260118_012134_Fwd_ URGENT_ Request for AI Project Proposal.md
+2026-01-18 01:21:34,706 - GmailWatcher - INFO - Marked message 19bcd9ea404d5a9d as read.

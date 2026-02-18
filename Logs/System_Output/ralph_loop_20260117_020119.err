@@ -1,0 +1,68 @@
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f504' in position 45: character maps to <undefined>
+Call stack:
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 344, in <module>
+    main()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 340, in main
+    loop.run()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 215, in run
+    logger.info("\U0001f504 Ralph Wiggum Loop Started - 'I'm helping!'")
+Message: "\U0001f504 Ralph Wiggum Loop Started - 'I'm helping!'"
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4cd' in position 45: character maps to <undefined>
+Call stack:
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 344, in <module>
+    main()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 340, in main
+    loop.run()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 223, in run
+    logger.info(f"\U0001f4cd Iteration {self.iteration_count}/{self.max_iterations}")
+Message: '\U0001f4cd Iteration 1/50'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c2' in position 45: character maps to <undefined>
+Call stack:
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 344, in <module>
+    main()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 340, in main
+    loop.run()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 243, in run
+    logger.info(f"\U0001f4c2 Found {len(files)} file(s) to process")
+Message: '\U0001f4c2 Found 1 file(s) to process'
+Arguments: ()
+--- Logging error ---
+Traceback (most recent call last):
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\logging\__init__.py", line 1163, in emit
+    stream.write(msg + self.terminator)
+  File "C:\Users\Kashan\AppData\Roaming\uv\python\cpython-3.12.12-windows-x86_64-none\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\U0001f4c4' in position 45: character maps to <undefined>
+Call stack:
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 344, in <module>
+    main()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 340, in main
+    loop.run()
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\ralph_loop.py", line 247, in run
+    logger.info(f"\U0001f4c4 Processing file {i}/{len(files)}: {file.name}")
+Message: '\U0001f4c4 Processing file 1/1: [URGENT]_Email_20260117_020117_Fwd_ URGENT_ Request for AI Project Proposal.md'
+Arguments: ()

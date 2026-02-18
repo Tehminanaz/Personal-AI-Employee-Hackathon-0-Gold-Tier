@@ -33,8 +33,9 @@ try:
         get_env_var,
         validate_text_length
     )
+    from social_media_summary import add_post_summary
 except ImportError:
-    print("Error: social_media_utils.py not found")
+    print("Error: social_media_utils.py or social_media_summary.py not found")
     sys.exit(1)
 
 # Load environment variables
@@ -65,14 +66,16 @@ GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 class InstagramPoster:
     """Handles posting to Instagram via Graph API."""
     
-    def __init__(self, dry_run: bool = False):
+    def __init__(self, dry_run: bool = False, generate_summary: bool = False):
         """
         Initialize Instagram Poster.
         
         Args:
             dry_run: If True, simulate posting without actual API calls
+            generate_summary: If True, add post to summary file
         """
         self.dry_run = dry_run
+        self.generate_summary = generate_summary
         
         if not dry_run:
             self.access_token = get_env_var("INSTAGRAM_ACCESS_TOKEN")
@@ -141,6 +144,16 @@ class InstagramPoster:
                     "caption_preview": caption[:100]
                 }
             )
+            
+            # Add to summary if requested
+            if self.generate_summary:
+                add_post_summary(
+                    platform="INSTAGRAM",
+                    post_id=post_id,
+                    content_preview=caption[:80],
+                    post_type="photo",
+                    metrics={"image_url": image_url}
+                )
             
             return True
             
@@ -265,6 +278,7 @@ def main():
     parser = argparse.ArgumentParser(description="Post to Instagram")
     parser.add_argument("content", help="Post content (markdown format)")
     parser.add_argument("--dry-run", action="store_true", help="Simulate without posting")
+    parser.add_argument("--summary", action="store_true", help="Generate post summary")
     args = parser.parse_args()
     
     logger.info("=" * 60)
@@ -282,7 +296,7 @@ def main():
             return False
         
         # Initialize poster
-        poster = InstagramPoster(dry_run=args.dry_run)
+        poster = InstagramPoster(dry_run=args.dry_run, generate_summary=args.summary)
         
         # Post photo
         success = poster.post_photo(image_url, caption)

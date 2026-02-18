@@ -1,0 +1,19 @@
+2026-01-17 01:57:45,776 - RalphLoop - INFO - Initialized Ralph Wiggum Loop
+2026-01-17 01:57:45,777 - RalphLoop - INFO - Max Iterations: 50
+2026-01-17 01:57:45,777 - RalphLoop - INFO - Iteration Delay: 3s
+2026-01-17 01:57:45,777 - RalphLoop - INFO - Dry Run: False
+2026-01-17 01:57:45,778 - RalphLoop - INFO - ================================================================================
+2026-01-17 01:57:45,790 - RalphLoop - INFO - ================================================================================
+2026-01-17 01:57:45,790 - RalphLoop - INFO - 
+2026-01-17 01:57:45,791 - RalphLoop - INFO - ================================================================================
+2026-01-17 01:57:45,792 - RalphLoop - INFO - ================================================================================
+Warning: gmail_watcher not found. Email execution will fail.
+2026-01-17 01:57:45,932 - root - WARNING - Could not import Action Executor. Actions will not be processed.
+2026-01-17 01:57:45,934 - Orchestrator - INFO - Processing new file: [URGENT]_Email_20260117_015227_URGENT_ Request for AI Project Proposal.md
+2026-01-17 01:57:45,934 - Orchestrator - INFO - Executing 'ccr code' for: [URGENT]_Email_20260117_015227_URGENT_ Request for AI Project Proposal.md
+2026-01-17 01:59:34,842 - Orchestrator - WARNING - CCR Stderr:
+^C
+2026-01-17 01:59:34,842 - Orchestrator - ERROR - CCR execution failed with return code 3221225786 for [URGENT]_Email_20260117_015227_URGENT_ Request for AI Project Proposal.md. File will remain in inbox for retry.
+2026-01-17 01:59:34,843 - Orchestrator - ERROR - Claude processing failed for: [URGENT]_Email_20260117_015227_URGENT_ Request for AI Project Proposal.md
+2026-01-17 01:59:34,843 - RalphLoop - INFO - ✅ Processed: [URGENT]_Email_20260117_015227_URGENT_ Request for AI Project Proposal.md
+2026-01-17 01:59:34,843 - RalphLoop - INFO - ⏳ Waiting 3s before next iteration...

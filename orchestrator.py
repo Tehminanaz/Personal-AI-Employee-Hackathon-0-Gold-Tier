@@ -284,7 +284,7 @@ class InboxHandler(FileSystemEventHandler):
                 "STEP 1: Read the plan carefully. "
                 "STEP 2: Execute the steps outlined in the plan. "
                 "STEP 3: Generate the FINAL OUTPUT in `02_Pending_Approval/`. "
-                "DO NOT create another plan. Focus on delivery. "
+                "CRITICAL: DO NOT create another plan. It is ALREADY APPROVED. EXECUTE IT."
             )
         else:
             # PLANNING PHASE: New Request
@@ -293,8 +293,11 @@ class InboxHandler(FileSystemEventHandler):
                 f"NEW TASK: {file_path.absolute()}. "
                 "STEP 0: Read Company_Handbook.md for operational rules. "
                 "STEP 1: Read .claude/skills/chief-of-staff.md and assume the persona. "
-                "STEP 2: Create `01_Needs_Action/PLAN_[Name].md`. "
-                "CRITICAL: Use the Chief of Staff skill to write a NARRATIVE PLAN listing execution steps. "
+                "STEP 2: Create a PLAN file in `01_Needs_Action/`. "
+                f"CRITICAL NAMING RULE: The plan file MUST be named 'PLAN_{file_path.name}'. "
+                "DO NOT add dates, timestamps, or change capitalization. EXACT MATCH ONLY. "
+                "Example: If input is 'Task.md', output MUST be 'PLAN_Task.md'. "
+                "CRITICAL: Write a NARRATIVE PLAN listing execution steps. "
                 "STOP. DO NOT generate the final output in 02_Pending_Approval/ yet. "
                 "Wait for user approval of the plan. "
             )

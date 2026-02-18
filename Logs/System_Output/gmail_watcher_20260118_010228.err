@@ -1,0 +1,4 @@
+Traceback (most recent call last):
+  File "C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\gmail_watcher.py", line 30, in <module>
+    from markdownify import markdownify as md
+ModuleNotFoundError: No module named 'markdownify'

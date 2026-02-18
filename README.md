@@ -1,109 +1,110 @@
-# 👁️ Vision 2026: The Digital FTE Sentinel
+# 👁️ Vision 2026: Digital FTE Sentinel (Super-Agent)
 
-**Current Status:** _Gold Tier Operational_ 🥇
-**Version:** 3.0 (Fully Autonomous & Self-Auditing)
-**Last Verified:** 2026-01-12
+**Current Status:** _Titanium Tier Operational_ 💎
+**Version:** 4.0 (Proactive, Self-Healing, Mobile-Connected)
+**Last Verified:** 2026-01-15
 
-> "The first automated employee that checks its own work."
+> "The first automated employee that thinks, acts, and notifies."
 
 ---
-
-## 🌎 Overview
-
-The **Digital FTE Sentinel** is an enterprise-grade autonomous operation system that lives in your filesystem. It transforms a standard folder structure into a cognitive processing engine, capable of executing complex workflows, auditing its own performance, and interacting with the real world (Email, LinkedIn, APIs).
-
-Unlike a chatbot, the Sentinel is **persistent**, **state-aware**, and **proactive**.
 
 ## 🏗️ Architecture
 
-The system operates on a file-based event loop:
+The Sentinel operates on a **Tri-Core Architecture**, connecting file system triggers to AI reasoning and external action execution.
 
-### 1. The Sentinel Loop (`orchestrator.py`)
-- **Monitors** `00_Inbox/` for new tasks (Markdown files).
-- **Analyzes** intent using the "Council of Experts":
-    - 🏛️ **Chief of Staff** (Strategy & Briefings)
-    - 🗣️ **Comm Strategist** (Content & Social)
-    - 💰 **Financial Controller** (Xero & Accounting)
-    - 🛠️ **Web Executor** (Code & Dev)
-    - 🛡️ **Safety Guardrail** (Ethics & Compliance)
-    - 📊 **Data Analyst** (Decision Science)
-    - 📅 **Project Manager** (Agile & Roadmap)
-    - 🚀 **Growth Hacker** (Marketing & SEO)
-    - 🧠 **Learning Specialist** (Research & Synthesis)
-- **Plans & Drafts** content in `01_Needs_Action/`.
-- **Verifies** quality using automated tests.
-- **Approves** final outputs to `03_Approved/`.
-
-### 2. The Execution Layer (`action_executor.py`)
-- **Watches** `03_Approved/` for actionable tasks.
-- **Executes** external actions safely (Gmail, API calls, Scripts).
-- **Logs** every action to `Logs/Action_Logs.json`.
-- **Archives** completed tasks to `04_Archive/`.
-
-### 3. The Perception Layer (`gmail_watcher.py`)
-- **Scans** incoming emails for specific triggers.
-- **Converts** emails into formatted task files in `00_Inbox/`.
-- **Closes the loop** between communication and execution.
+```mermaid
+graph TD
+    User[User] -->|Drops File| Inbox(00_Inbox/)
+    Email[Gmail Watcher] -->|Fetches Emails| Inbox
+    
+    subgraph "Sentinel Core"
+        Inbox -->|Trigger| Orch[Orchestrator]
+        Orch -->|Analysis| AI{Claude AI}
+        AI -->|Plan| NeedsAction(01_Needs_Action/)
+        NeedsAction -->|User Approval| Inbox
+        
+        Inbox -->|Approved Plan| Orch
+        Orch -->|Execute Plan| Pending(02_Pending_Approval/)
+    end
+    
+    subgraph "Execution Layer"
+        Pending -->|Final Review| Approved(03_Approved/)
+        Approved -->|Trigger| Exec[Action Executor]
+        
+        Exec -->|Send| API_Gmail[Gmail API]
+        Exec -->|Post| API_Social[Social Media]
+        Exec -->|Notify| API_Push[ntfy.sh]
+    end
+    
+    subgraph "Cognitive Loop"
+        Exec -->|Log| Memory[Memory_Vault.md]
+        Idle[Idle Timer] -->|Trigger| ShadowCEO[Shadow CEO Logic]
+        ShadowCEO -->|Proactive Task| Inbox
+    end
+    
+    Exec -->|Archive| Archive(04_Archive/)
+    Exec -->|Log| JsonLog(Logs/Action_Logs.json)
+```
 
 ---
 
-## 🚀 Key Features (Gold Tier)
+## 🚀 Feature List
 
-### ✅ Autonomous Execution
-- **Robust File Handling**: strict naming conventions and path resilience.
-- **Safe Triggers**: `GMAIL_SEND_` prefix enforcement for high-risk actions.
-- **System Health Checks**: `VERIFICATION_` triggers for self-diagnostics.
+### 🥇 Gold Tier (Base Operation)
+- **Autonomous Loop (`ralph_loop.py`)**: Continuous processing without manual restart.
+- **Council of Experts**: 10+ Specialized AI Personas (Chief of Staff, CFO, etc.).
+- **Self-Auditing**: Generates weekly "Amazon-style" memos analyzing its own performance.
+- **Strict Compliance**: Enforces `Company_Handbook.md` rules (e.g., $100 spending limit).
 
-### 🧠 Chief of Staff Mode
-- **Weekly CEO Briefing**: Automated generation of "Amazon-style" 6-page narrative reports.
-- **Success Rate Auditing**: Calculates performance metrics from `Action_Logs.json`.
-- **Strategic Planning**: Narratives over powerpoint.
-
-### 🛡️ Safety & Auditing
-- **UTF-8 Logging**: Full support for emojis and special characters in logs.
-- **Visible Audit Trail**: Real-time logging to `Logs/` directory.
-- **Human-in-the-Loop**: Critical actions require file movement to `03_Approved/`.
+### 💎 Super-Agent Upgrades (New!)
+- **📱 Mobile Connectivity (`notify_boss.py`)**: Real-time push notifications to your phone for Urgent tasks or completions.
+- **🧠 Long-Term Memory (`Memory_Vault.md`)**: Learns user preferences over time (e.g., "Boss likes emojis").
+- **👻 Shadow CEO Mode**: If idle for >2 cycles, proactively reads `Vision_2026.md` and generates strategic improvements.
+- **📧 Professional Email**: Auto-tags [URGENT], filters Spam, and creates **Drafts** for review instead of blind sending.
 
 ---
 
-## 📂 Directory Structure
+## 🛠️ Setup Guide
 
-| Directory | Purpose |
-|-----------|---------|
-| `00_Inbox/` | Entry point for new tasks (User or Email) |
-| `01_Needs_Action/` | AI-generated plans awaiting review |
-| `02_Pending_Approval/` | Final drafts ready for sign-off |
-| `03_Approved/` | **THE RED BUTTON**. Files here execute immediately. |
-| `04_Archive/` | Storage for completed/executed tasks |
-| `Logs/` | System logs and Audit JSONs |
-| `.claude/skills/` | The "Brain" (Skill definitions) |
+### Prerequisites
+- Python 3.10+
+- Google Cloud Credentials (`credentials.json`)
+- DeepSeek/Gemini/Claude API Key
+
+### Installation
+1.  **Clone & Install Dependencies**:
+    ```bash
+    pip install -r requirements.txt
+    ```
+
+2.  **Configure Environment**:
+    Create `.env`:
+    ```ini
+    GEMINI_API_KEY=your_key_here
+    NTFY_TOPIC=kashan_sentinel_2026
+    ```
+
+3.  **Run the System**:
+    ```bash
+    # Start the Full System
+    python run_fte.py
+    ```
 
 ---
 
-## 💻 Quick Start
+## 🔒 Security Disclosure
 
-### 1. Start the System
-```powershell
-# Start the Orchestrator (The Brain)
-python orchestrator.py
+Your data security is paramount. The Sentinel is designed with privacy-first principles:
 
-# Start the Watcher (The Eyes - Optional)
-python gmail_watcher.py
-```
-
-### 2. Create a Task
-Drop a file into `00_Inbox/`:
-```markdown
-# TASK: Weekly Finance Report
-Please analyze the attached CSV and generate a summary.
-```
-
-### 3. Trigger an Audit (CEO Mode)
-Drop a file into `00_Inbox/`:
-```markdown
-# TASK: Generate CEO Audit
-Run the generate_weekly_audit command.
-```
+1.  **Local Execution**: All logic runs locally on your machine. No sensitive data is stored on external servers except deemed inputs.
+2.  **Credential Safety**: 
+    - API Keys are loaded from `.env` (Excluded from Git).
+    - `credentials.json` (Google OAuth) is local-only.
+    - `token.pickle` stores session tokens locally.
+3.  **Human-in-the-Loop**: 
+    - **Draft Mode**: Emails are strictly created as Drafts first.
+    - **Approval Gate**: Critical actions require moving files to `03_Approved/`.
+    - **Financial Cap**: Hard-coded triggers prevent high-value transactions without explicit override.
 
 ---
 

@@ -31,8 +31,9 @@ try:
         get_env_var,
         validate_text_length
     )
+    from social_media_summary import add_post_summary
 except ImportError:
-    print("Error: social_media_utils.py not found")
+    print("Error: social_media_utils.py or social_media_summary.py not found")
     sys.exit(1)
 
 # Load environment variables
@@ -63,14 +64,16 @@ GRAPH_API_BASE = f"https://graph.facebook.com/{GRAPH_API_VERSION}"
 class FacebookPoster:
     """Handles posting to Facebook Page."""
     
-    def __init__(self, dry_run: bool = False):
+    def __init__(self, dry_run: bool = False, generate_summary: bool = False):
         """
         Initialize Facebook Poster.
         
         Args:
             dry_run: If True, simulate posting without actual API calls
+            generate_summary: If True, add post to summary file
         """
         self.dry_run = dry_run
+        self.generate_summary = generate_summary
         
         if not dry_run:
             self.access_token = get_env_var("FACEBOOK_PAGE_ACCESS_TOKEN")
@@ -134,6 +137,16 @@ class FacebookPoster:
                     "link": link
                 }
             )
+            
+            # Add to summary if requested
+            if self.generate_summary:
+                add_post_summary(
+                    platform="FACEBOOK",
+                    post_id=post_id,
+                    content_preview=message[:80],
+                    post_type="text",
+                    metrics={"link": link if link else "None"}
+                )
             
             return True
             
@@ -212,6 +225,16 @@ class FacebookPoster:
                 }
             )
             
+            # Add to summary if requested
+            if self.generate_summary:
+                add_post_summary(
+                    platform="FACEBOOK",
+                    post_id=post_id,
+                    content_preview=caption[:80],
+                    post_type="photo",
+                    metrics={"image_url": image_url}
+                )
+            
             return True
             
         except Exception as e:
@@ -264,6 +287,7 @@ def main():
     parser = argparse.ArgumentParser(description="Post to Facebook Page")
     parser.add_argument("content", help="Post content (markdown format)")
     parser.add_argument("--dry-run", action="store_true", help="Simulate without posting")
+    parser.add_argument("--summary", action="store_true", help="Generate post summary")
     args = parser.parse_args()
     
     logger.info("=" * 60)
@@ -282,7 +306,7 @@ def main():
             return False
         
         # Initialize poster
-        poster = FacebookPoster(dry_run=args.dry_run)
+        poster = FacebookPoster(dry_run=args.dry_run, generate_summary=args.summary)
         
         # Post based on content type
         if image_url:

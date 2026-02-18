@@ -21,8 +21,6 @@ import json
 import subprocess
 from datetime import datetime
 from pathlib import Path
-from watchdog.observers import Observer
-from watchdog.events import FileSystemEventHandler, FileCreatedEvent, FileMovedEvent
 from email.mime.text import MIMEText
 
 # Import authentication from gmail_watcher
@@ -33,6 +31,14 @@ try:
 except ImportError:
     GMAIL_AVAILABLE = False
     print("Warning: gmail_watcher not found. Email execution will fail.")
+
+# Import Odoo MCP Server
+try:
+    from odoo_mcp_server import OdooMCPServer
+    ODOO_AVAILABLE = True
+except ImportError:
+    ODOO_AVAILABLE = False
+    print("Warning: odoo_mcp_server not found. Odoo execution will fail.")
 
 # Configuration
 BASE_DIR = Path(__file__).parent.resolve()
@@ -61,102 +67,15 @@ logging.basicConfig(
 )
 logger = logging.getLogger("ActionExecutor")
 
-class ApprovedHandler(FileSystemEventHandler):
-    """Monitors 03_Approved/ for new files to execute."""
+class ActionHandler:
+    """Handles execution of tasks found in 03_Approved/."""
     
-    def on_created(self, event):
-        if not event.is_directory and event.src_path.endswith('.md'):
-            self.process_file(Path(event.src_path))
-            
-    def on_moved(self, event):
-        if not event.is_directory and event.dest_path.endswith('.md'):
-            self.process_file(Path(event.dest_path))
-
-    def _generate_and_run_tests(self, content: str, file_path: Path) -> bool:
-        """
-        Generate and run tests for critical tasks
-        """
-        task_classification = self._classify_task(content)
-
-        if task_classification == "CRITICAL":
-            logger.info(f"Generating tests for critical task: {file_path.name}")
-
-            # Create a simple test based on the task
-            test_filename = f"test_{file_path.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.py"
-            test_path = BASE_DIR / "Tests" / test_filename
-
-            # Ensure Tests directory exists
-            (BASE_DIR / "Tests").mkdir(exist_ok=True)
-
-            test_content = f'''"""Auto-generated test for {file_path.name}
-
-Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
-Task File: {file_path.name}
-Category: critical
-"""
-
-import pytest
-import sys
-from pathlib import Path
-
-def test_task_file_exists():
-    """Verify the task file exists and is accessible."""
-    task_path = Path("{file_path.name}")
-    # This test is simplified for demonstration
-    assert True
-
-def test_content_validity():
-    """Basic validation of task content."""
-    content = Path("{file_path.name}").read_text()
-    # Basic checks
-    assert len(content.strip()) > 0
-
-def test_workflow_requirements():
-    """Test that workflow requirements are met."""
-    # Check that required directories exist
-    required_dirs = ["00_Inbox", "01_Needs_Action", "Tests", "02_Pending_Approval", "03_Approved", "04_Archive"]
-    for req_dir in required_dirs:
-        assert Path(req_dir).exists(), f"Required directory {{req_dir}} missing"
-
-if __name__ == "__main__":
-    pytest.main([__file__, "-v"])
-'''
-
-            with open(test_path, 'w', encoding='utf-8') as f:
-                f.write(test_content)
-
-            logger.info(f"Generated test file: {test_path}")
-
-            # Execute the test
-            try:
-                result = subprocess.run(
-                    [sys.executable, str(test_path)],
-                    capture_output=True,
-                    text=True,
-                    timeout=30
-                )
-
-                if result.returncode == 0:
-                    logger.info(f"Tests passed for: {test_path.name}")
-                    return True
-                else:
-                    logger.error(f"Tests failed for: {test_path.name}")
-                    logger.error(f"Error: {result.stderr}")
-                    return False
-
-            except Exception as e:
-                logger.error(f"Error executing test {test_path.name}: {str(e)}")
-                return False
-        else:
-            logger.info(f"Skipping tests for creative task: {file_path.name}")
-            return True  # Creative tasks pass by default
-
     def process_file(self, file_path: Path):
         """Determines task type and executes."""
         logger.info(f"New approved task detected: {file_path.name}")
 
         try:
-            # Wait briefly for file write to complete
+            # Wait briefly for file write to complete (simulating old behavior just in case)
             time.sleep(1)
 
             with open(file_path, 'r', encoding='utf-8') as f:
@@ -186,6 +105,10 @@ if __name__ == "__main__":
                 success = self._execute_twitter(content)
             elif task_type == "INSTAGRAM":
                 success = self._execute_instagram(content)
+            elif task_type == "ODOO_INVOICE":
+                success = self._execute_odoo_invoice(content)
+            elif task_type == "ODOO_PAYMENT":
+                success = self._execute_odoo_payment(content)
             elif task_type == "SYSTEM_CHECK":
                 success = self._execute_system_check(content)
             else:
@@ -202,6 +125,101 @@ if __name__ == "__main__":
         except Exception as e:
             logger.error(f"Error executing {file_path.name}: {e}", exc_info=True)
             self._update_audit_log("UNKNOWN", file_path.name, "FAILURE", str(e))
+
+    def _generate_and_run_tests(self, content: str, file_path: Path) -> bool:
+        """
+        Generate and run tests for critical tasks
+        
+        NOTE: This feature is DISABLED to prevent creating 200+ test files.
+        Auto-generating tests for every email/task was causing test directory bloat.
+        Use manual test creation for critical workflows instead.
+        """
+        # DISABLED: Auto-test generation
+        # This was creating a test file for EVERY critical task (emails, financial, etc.)
+        # which resulted in 200+ unnecessary test files.
+        
+        logger.info(f"Skipping auto-test generation for: {file_path.name}")
+        logger.info("Auto-test generation is disabled. Use test_gold_tier_integration.py for validation.")
+        
+        # Always return True to allow task execution
+        return True
+        
+        # ===== ORIGINAL CODE (DISABLED) =====
+        # task_classification = self._classify_task(content)
+        #
+        # if task_classification == "CRITICAL":
+        #     logger.info(f"Generating tests for critical task: {file_path.name}")
+        #
+        #     # Create a simple test based on the task
+        #     test_filename = f"test_{file_path.stem}_{datetime.now().strftime('%Y%m%d_%H%M%S')}.py"
+        #     test_path = BASE_DIR / "Tests" / test_filename
+        #
+        #     # Ensure Tests directory exists
+        #     (BASE_DIR / "Tests").mkdir(exist_ok=True)
+        #
+        #     test_content = f'''"""Auto-generated test for {file_path.name}
+        #
+        # Generated: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
+        # Task File: {file_path.name}
+        # Category: critical
+        # """
+        #
+        # import pytest
+        # import sys
+        # from pathlib import Path
+        #
+        # def test_task_file_exists():
+        #     """Verify the task file exists and is accessible."""
+        #     task_path = Path("{file_path.name}")
+        #     # This test is simplified for demonstration
+        #     assert True
+        #
+        # def test_content_validity():
+        #     """Basic validation of task content."""
+        #     content = Path("{file_path.name}").read_text()
+        #     # Basic checks
+        #     assert len(content.strip()) > 0
+        #
+        # def test_workflow_requirements():
+        #     """Test that workflow requirements are met."""
+        #     # Check that required directories exist
+        #     required_dirs = ["00_Inbox", "01_Needs_Action", "Tests", "02_Pending_Approval", "03_Approved", "04_Archive"]
+        #     for req_dir in required_dirs:
+        #         assert Path(req_dir).exists(), f"Required directory {{req_dir}} missing"
+        #
+        # if __name__ == "__main__":
+        #     pytest.main([__file__, "-v"])
+        # '''
+        #
+        #     with open(test_path, 'w', encoding='utf-8') as f:
+        #         f.write(test_content)
+        #
+        #     logger.info(f"Generated test file: {test_path}")
+        #
+        #     # Execute the test
+        #     try:
+        #         result = subprocess.run(
+        #             [sys.executable, str(test_path)],
+        #             capture_output=True,
+        #             text=True,
+        #             timeout=30
+        #         )
+        #
+        #         if result.returncode == 0:
+        #             logger.info(f"Tests passed for: {test_path.name}")
+        #             return True
+        #         else:
+        #             logger.error(f"Tests failed for: {test_path.name}")
+        #             logger.error(f"Error: {result.stderr}")
+        #             return False
+        #
+        #     except Exception as e:
+        #         logger.error(f"Error executing test {test_path.name}: {str(e)}")
+        #         return False
+        # else:
+        #     logger.info(f"Skipping tests for creative task: {file_path.name}")
+        #     return True  # Creative tasks pass by default
+
 
     def _classify_task(self, content: str) -> str:
         """
@@ -252,6 +270,12 @@ if __name__ == "__main__":
         if filename.startswith("LINKEDIN_POST_"):
             logger.info("Found LINKEDIN_POST_ prefix -> LINKEDIN")
             return "LINKEDIN"
+        if filename.startswith("ODOO_INVOICE_"):
+            logger.info("Found ODOO_INVOICE_ prefix -> ODOO_INVOICE")
+            return "ODOO_INVOICE"
+        if filename.startswith("ODOO_PAYMENT_"):
+            logger.info("Found ODOO_PAYMENT_ prefix -> ODOO_PAYMENT")
+            return "ODOO_PAYMENT"
 
         # 2. Check for explicit headers if Agent follows format
         if "Type: Email" in content:
@@ -277,10 +301,9 @@ if __name__ == "__main__":
         logger.info("Executing Email Task...")
         
         try:
-            # Extract fields (Simple Regex)
-            # Looks for "To: email@example.com"
-            to_match = re.search(r'(?:To|Recipient):\s*([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)', content, re.IGNORECASE)
-            subject_match = re.search(r'(?:Subject):\s*(.+)', content, re.IGNORECASE)
+            # Extract fields (Robust Regex to handle markdown)
+            to_match = re.search(r'(?:\*\*|)?(?:To|Recipient):(?:\*\*|)?\s*([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+)', content, re.IGNORECASE)
+            subject_match = re.search(r'(?:\*\*|)?(?:Subject):(?:\*\*|)?\s*(.+)', content, re.IGNORECASE)
             
             # Simple body extraction (everything after "Body:" or just the whole content if not found)
             # Assuming the agent formats it like "Body:\n[Content]"
@@ -302,16 +325,19 @@ if __name__ == "__main__":
                 self._update_audit_log("EMAIL", f"Failed to send to {to_email}", "DEGRADED_STATE", "Gmail Auth Failed")
                 return False
                 
-            # Create message
+            # Create message structure for Draft
             message = MIMEText(body)
             message['to'] = to_email
             message['subject'] = subject
             raw = base64.urlsafe_b64encode(message.as_bytes()).decode()
-            body_msg = {'raw': raw}
+            body_msg = {'message': {'raw': raw}}
             
-            # Send
-            service.users().messages().send(userId='me', body=body_msg).execute()
-            logger.info("Email sent successfully.")
+            # Create DRAFT instead of Sending
+            draft = service.users().drafts().create(userId='me', body=body_msg).execute()
+            draft_id = draft.get('id')
+            
+            logger.info(f"Draft created successfully. ID: {draft_id}")
+            logger.info("ACTION REQUIRED: Please review and send this draft in Gmail.")
             return True
             
         except Exception as e:
@@ -371,6 +397,98 @@ if __name__ == "__main__":
     def _execute_instagram(self, content: str) -> bool:
         """Triggers instagram_poster.py script."""
         return self._run_external_script("instagram_poster.py", content)
+    
+    def _execute_odoo_invoice(self, content: str) -> bool:
+        """Creates invoice draft in Odoo."""
+        if not ODOO_AVAILABLE:
+            logger.error("Odoo MCP server not available.")
+            return False
+        
+        logger.info("Executing Odoo Invoice Task...")
+        
+        try:
+            # Extract fields from content
+            import re
+            
+            partner_match = re.search(r'(?:Client|Partner|Customer):\s*(.+)', content, re.IGNORECASE)
+            amount_match = re.search(r'(?:Amount):\s*\$?([0-9,]+\.?[0-9]*)', content, re.IGNORECASE)
+            desc_match = re.search(r'(?:Description|Service):\s*(.+)', content, re.IGNORECASE)
+            
+            if not partner_match or not amount_match:
+                logger.error("Could not extract required fields (client, amount) from content.")
+                return False
+            
+            partner_name = partner_match.group(1).strip()
+            amount = float(amount_match.group(1).replace(',', ''))
+            description = desc_match.group(1).strip() if desc_match else "Services rendered"
+            
+            logger.info(f"Creating invoice: {partner_name} - ${amount}")
+            
+            # Create invoice draft via MCP
+            server = OdooMCPServer()
+            invoice_id = server.create_invoice_draft(
+                partner_name=partner_name,
+                amount=amount,
+                description=description
+            )
+            
+            if invoice_id:
+                logger.info(f"Invoice draft created successfully. Odoo ID: {invoice_id}")
+                logger.info("ACTION REQUIRED: Review invoice in Odoo before posting.")
+                return True
+            else:
+                logger.error("Failed to create invoice draft.")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Failed to execute Odoo invoice task: {e}", exc_info=True)
+            return False
+    
+    def _execute_odoo_payment(self, content: str) -> bool:
+        """Records payment draft in Odoo."""
+        if not ODOO_AVAILABLE:
+            logger.error("Odoo MCP server not available.")
+            return False
+        
+        logger.info("Executing Odoo Payment Task...")
+        
+        try:
+            # Extract fields from content
+            import re
+            
+            invoice_id_match = re.search(r'(?:Invoice ID|Invoice):\s*([0-9]+)', content, re.IGNORECASE)
+            amount_match = re.search(r'(?:Amount):\s*\$?([0-9,]+\.?[0-9]*)', content, re.IGNORECASE)
+            method_match = re.search(r'(?:Payment Method|Method):\s*(.+)', content, re.IGNORECASE)
+            
+            if not invoice_id_match or not amount_match:
+                logger.error("Could not extract required fields (invoice_id, amount) from content.")
+                return False
+            
+            invoice_id = int(invoice_id_match.group(1))
+            amount = float(amount_match.group(1).replace(',', ''))
+            payment_method = method_match.group(1).strip() if method_match else "manual"
+            
+            logger.info(f"Recording payment: Invoice {invoice_id} - ${amount}")
+            
+            # Record payment draft via MCP
+            server = OdooMCPServer()
+            payment_id = server.record_payment_draft(
+                invoice_id=invoice_id,
+                amount=amount,
+                payment_method=payment_method
+            )
+            
+            if payment_id:
+                logger.info(f"Payment draft created successfully. Odoo ID: {payment_id}")
+                logger.info("ACTION REQUIRED: Review payment in Odoo before posting.")
+                return True
+            else:
+                logger.error("Failed to create payment draft.")
+                return False
+                
+        except Exception as e:
+            logger.error(f"Failed to execute Odoo payment task: {e}", exc_info=True)
+            return False
     
     def _run_external_script(self, script_name: str, content: str) -> bool:
         """Generic method to run external social media scripts."""
@@ -481,25 +599,53 @@ if __name__ == "__main__":
             
             file_path.rename(archive_path)
             logger.info(f"Archived to {archive_path}")
+            
+            # NOTIFICATION TRIGGER
+            # If the task was URGENT or simply completed, notify boss?
+            # User request: "Detect a task is archived, it triggers this notification"
+            # We'll send a notification for every completed task for now, or maybe just Urgent ones?
+            # "whenever an [URGENT] email is detected or a task is archived" -> implies ALL archives.
+            
+            try:
+                import notify_boss
+                msg = f"✅ Task Completed: {file_path.name}"
+                priority = "default"
+                
+                if "[URGENT]" in file_path.name:
+                    msg = f"🚨 URGENT Task Completed: {file_path.name}"
+                    priority = "high"
+                    
+                notify_boss.send_notification(msg, priority=priority)
+                
+            except Exception as e:
+                logger.error(f"Failed to send notification: {e}")
+                
         except Exception as e:
             logger.error(f"Failed to archive: {e}")
 
 def main():
-    logger.info("Starting Action Executor...")
+    logger.info("Starting Action Executor (Polling Mode)...")
     logger.info(f"Monitoring: {APPROVED_DIR}")
     
-    event_handler = ApprovedHandler()
-    observer = Observer()
-    observer.schedule(event_handler, str(APPROVED_DIR), recursive=False)
+    handler = ActionHandler()
     
-    observer.start()
     try:
         while True:
-            time.sleep(1)
+            # Polling Loop
+            files = list(APPROVED_DIR.glob("*.md"))
+            
+            for file_path in files:
+                # Double check existence (race conditions)
+                if file_path.exists():
+                    handler.process_file(file_path)
+            
+            # Wait before next scan
+            time.sleep(5)
+            
     except KeyboardInterrupt:
-        observer.stop()
         logger.info("Stopping Action Executor...")
-    observer.join()
+    except Exception as e:
+        logger.critical(f"Action Executor Crashed: {e}", exc_info=True)
 
 if __name__ == "__main__":
     main()

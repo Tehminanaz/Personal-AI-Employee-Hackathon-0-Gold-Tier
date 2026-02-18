@@ -31,11 +31,16 @@ from markdownify import markdownify as md
 
 # Configuration
 SCOPES = ['https://www.googleapis.com/auth/gmail.modify']
-BASE_DIR = Path(__file__).parent.resolve()
+
+# Robust Absolute Path Resolution
+# This ensures paths work correctly regardless of where the script is run from
+SCRIPT_DIR = Path(os.path.dirname(os.path.abspath(__file__)))
+BASE_DIR = SCRIPT_DIR
 INBOX_DIR = BASE_DIR / "00_Inbox"
 CREDENTIALS_FILE = BASE_DIR / "credentials.json"
 TOKEN_FILE = BASE_DIR / "token.pickle"
 SIMULATION_FILE = BASE_DIR / "gmail_simulation.txt"
+PROCESSED_FILE = BASE_DIR / "processed_emails.json"
 POLL_INTERVAL = 10  # Reduced for responsiveness, original was 60
 
 # Logging setup
@@ -43,7 +48,8 @@ logging.basicConfig(
     level=logging.INFO,
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',
     handlers=[
-        logging.StreamHandler(sys.stdout)
+        logging.StreamHandler(sys.stdout),
+        logging.FileHandler(BASE_DIR / "gmail_watcher.log", encoding='utf-8')
     ]
 )
 logger = logging.getLogger("GmailWatcher")
@@ -114,6 +120,68 @@ def clean_filename(subject: str) -> str:
     # Truncate if too long
     return clean[:100]
 
+def is_spam_or_newsletter(content: str, subject: str) -> bool:
+    """
+    Analyzes content to determine if it's spam or newsletter.
+    Returns True if it should be ignored.
+    """
+    spam_keywords = [
+        'unsubscribe', 'view in browser', 'marketing', 'newsletter', 
+        'promo', 'offer', 'sale', 'opt-out', 'subscription'
+    ]
+    
+    text_to_scan = (subject + " " + content).lower()
+    
+    # Check for keywords
+    for keyword in spam_keywords:
+        if keyword in text_to_scan:
+            return True
+            
+    return False
+
+def get_priority_prefix(content: str, subject: str) -> str:
+    """
+    Determines if a task is urgent.
+    Returns '[URGENT]_' or empty string.
+    """
+    urgent_keywords = ['urgent', 'asap', 'immediate', 'critical', 'important', 'emergency']
+    
+    text_to_scan = (subject + " " + content).lower()
+    
+    for keyword in urgent_keywords:
+        # Simple word boundary check would be better, but simple inclusion is fine for v1
+        if keyword in text_to_scan:
+            return "[URGENT]_"
+            
+    return ""
+
+
+def load_processed_ids() -> set:
+    """Load set of processed message IDs from file."""
+    # PROCESSED_FILE is now defined globally
+
+    if PROCESSED_FILE.exists():
+        try:
+            import json
+            with open(PROCESSED_FILE, 'r', encoding='utf-8') as f:
+                return set(json.load(f))
+        except Exception:
+            return set()
+    return set()
+
+def save_processed_id(msg_id: str):
+    """Save a new processed ID to file."""
+    # PROCESSED_FILE is now defined globally
+    processed = load_processed_ids()
+    processed.add(msg_id)
+    try:
+        import json
+        with open(PROCESSED_FILE, 'w', encoding='utf-8') as f:
+            json.dump(list(processed), f)
+    except Exception as e:
+        logger.error(f"Failed to save processed ID: {e}")
+
+
 def process_messages(service):
     """Checks for unread messages and processes them."""
     if not service:
@@ -121,8 +189,8 @@ def process_messages(service):
         return
 
     try:
-        # List unread messages in Inbox with specific subject
-        results = service.users().messages().list(userId='me', q='label:UNREAD label:INBOX subject:"ACTION REQUIRED"').execute()
+        # List unread messages in Inbox (All unread emails)
+        results = service.users().messages().list(userId='me', q='label:UNREAD label:INBOX').execute()
         messages = results.get('messages', [])
 
         if not messages:
@@ -130,10 +198,24 @@ def process_messages(service):
             return
 
         logger.info(f"Found {len(messages)} unread messages.")
+        
+        # Load processed IDs
+        processed_ids = load_processed_ids()
 
         for msg in messages:
             try:
                 msg_id = msg['id']
+                
+                # Deduplication Check
+                if msg_id in processed_ids:
+                    logger.info(f"Skipping already processed message: {msg_id}")
+                    # Attempt to mark as read again just in case it failed previously
+                    try:
+                        service.users().messages().modify(userId='me', id=msg_id, body={'removeLabelIds': ['UNREAD']}).execute()
+                    except:
+                        pass
+                    continue
+                
                 message = service.users().messages().get(userId='me', id=msg_id).execute()
                 payload = message['payload']
                 headers = payload.get('headers', [])
@@ -152,10 +234,24 @@ def process_messages(service):
                 # Get body
                 body_content = get_message_body(payload)
                 
+                # SPAM FILTERING
+                if is_spam_or_newsletter(body_content, subject):
+                    logger.info(f"Skipping SPAM/NEWSLETTER: {subject}")
+                    # Mark as read so we don't fetch it again
+                    service.users().messages().modify(userId='me', id=msg_id, body={'removeLabelIds': ['UNREAD']}).execute()
+                    save_processed_id(msg_id)
+                    continue
+
+                # PRIORITY TAGGING
+                priority_prefix = get_priority_prefix(body_content, subject)
+                if priority_prefix:
+                    logger.info(f"Marking as URGENT: {subject}")
+
                 # Convert to Markdown
                 # If content looks like HTML, markdownify it. 
                 # If it's plain text, markdownify might just leave it alone or escape properly.
                 md_content = md(body_content)
+
 
                 # Create file content
                 timestamp = datetime.now().strftime('%Y-%m-%d %H:%M:%S')
@@ -172,8 +268,10 @@ def process_messages(service):
                 # Save to 00_Inbox
                 safe_subject = clean_filename(subject)
                 date_str = datetime.now().strftime('%Y%m%d_%H%M%S')
-                filename = f"Email_{date_str}_{safe_subject}.md"
+                # Include Priority Prefix in filename
+                filename = f"{priority_prefix}Email_{date_str}_{safe_subject}.md"
                 file_path = INBOX_DIR / filename
+
 
                 # Ensure inbox exists
                 INBOX_DIR.mkdir(exist_ok=True)
@@ -186,6 +284,10 @@ def process_messages(service):
                 # Mark as read (remove UNREAD label)
                 service.users().messages().modify(userId='me', id=msg_id, body={'removeLabelIds': ['UNREAD']}).execute()
                 logger.info(f"Marked message {msg_id} as read.")
+                
+                # Save ID as processed
+                save_processed_id(msg_id)
+
 
             except Exception as e:
                 logger.error(f"Error processing message {msg.get('id')}: {e}", exc_info=True)

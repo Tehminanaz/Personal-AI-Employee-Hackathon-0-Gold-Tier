@@ -1,0 +1,42 @@
+2026-01-18 02:35:11,514 - RalphLoop - INFO - Initialized Ralph Wiggum Loop
+2026-01-18 02:35:11,515 - RalphLoop - INFO - Max Iterations: 50
+2026-01-18 02:35:11,515 - RalphLoop - INFO - Iteration Delay: 3s
+2026-01-18 02:35:11,515 - RalphLoop - INFO - Dry Run: False
+2026-01-18 02:35:11,515 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:35:11,531 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:35:11,531 - RalphLoop - INFO - 
+2026-01-18 02:35:11,531 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:35:11,533 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:35:13,315 - root - WARNING - Could not import Action Executor. Actions will not be processed.
+2026-01-18 02:35:13,317 - Orchestrator - INFO - Processing new file: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:35:13,318 - Orchestrator - INFO - Executing 'ccr code' for: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:38:56,499 - Orchestrator - INFO - CCR Output:
+API Error: 401 {"error":{"message":"Error from provider(qwen,qwen3-coder-plus: 401): {\"error\":{\"code\":\"invalid_api_key\",\"message\":\"invalid access token or token expired\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"7e483b96-a197-9158-9b48-3fae52e849d9\"}Error: Error from provider(qwen,qwen3-coder-plus: 401): {\"error\":{\"code\":\"invalid_api_key\",\"message\":\"invalid access token or token expired\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"7e483b96-a197-9158-9b48-3fae52e849d9\"}\n    at qn (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:7451)\n    at fD (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:11338)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async cN (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:8659)","type":"api_error","code":"provider_response_error"}} · Please run /login
+
+2026-01-18 02:38:56,500 - Orchestrator - ERROR - CCR execution failed with return code 1 for [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md. File will remain in inbox for retry.
+2026-01-18 02:38:56,500 - Orchestrator - ERROR - Claude processing failed for: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:38:56,500 - RalphLoop - INFO - ✅ Processed: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:38:56,500 - RalphLoop - INFO - ⏳ Waiting 3s before next iteration...
+2026-01-18 02:38:59,501 - RalphLoop - INFO - 
+2026-01-18 02:38:59,501 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:38:59,501 - RalphLoop - INFO - 📍 Iteration 2/50
+2026-01-18 02:38:59,501 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:38:59,506 - RalphLoop - INFO - 📂 Found 1 file(s) to process
+2026-01-18 02:38:59,506 - RalphLoop - INFO - 📄 Processing file 1/1: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:38:59,506 - Orchestrator - INFO - Processing new file: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:38:59,507 - Orchestrator - INFO - Executing 'ccr code' for: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:42:33,207 - Orchestrator - INFO - CCR Output:
+API Error: 401 {"error":{"message":"Error from provider(qwen,qwen3-coder-plus: 401): {\"error\":{\"code\":\"invalid_api_key\",\"message\":\"invalid access token or token expired\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"7e552d7a-d100-98bf-a33a-2ef8cadc47a4\"}Error: Error from provider(qwen,qwen3-coder-plus: 401): {\"error\":{\"code\":\"invalid_api_key\",\"message\":\"invalid access token or token expired\",\"param\":null,\"type\":\"invalid_request_error\"},\"request_id\":\"7e552d7a-d100-98bf-a33a-2ef8cadc47a4\"}\n    at qn (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:7451)\n    at fD (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:11338)\n    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)\n    at async cN (C:\\Users\\Kashan\\AppData\\Roaming\\npm\\node_modules\\@musistudio\\claude-code-router\\dist\\cli.js:582:8659)","type":"api_error","code":"provider_response_error"}} · Please run /login
+
+2026-01-18 02:42:33,207 - Orchestrator - ERROR - CCR execution failed with return code 1 for [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md. File will remain in inbox for retry.
+2026-01-18 02:42:33,208 - Orchestrator - ERROR - Claude processing failed for: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:42:33,208 - RalphLoop - INFO - ✅ Processed: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:42:33,208 - RalphLoop - INFO - ⏳ Waiting 3s before next iteration...
+2026-01-18 02:42:36,209 - RalphLoop - INFO - 
+2026-01-18 02:42:36,209 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:42:36,209 - RalphLoop - INFO - 📍 Iteration 3/50
+2026-01-18 02:42:36,209 - RalphLoop - INFO - ================================================================================
+2026-01-18 02:42:36,211 - RalphLoop - INFO - 📂 Found 1 file(s) to process
+2026-01-18 02:42:36,211 - RalphLoop - INFO - 📄 Processing file 1/1: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:42:36,211 - Orchestrator - INFO - Processing new file: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md
+2026-01-18 02:42:36,211 - Orchestrator - INFO - Executing 'ccr code' for: [URGENT]_Email_20260118_020029_URGENT_ Request for AI Project Proposal.md

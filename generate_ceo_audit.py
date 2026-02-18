@@ -1,13 +1,15 @@
 #!/usr/bin/env python3
 """
-CEO Audit Generator - Digital FTE System
+CEO Audit Generator - Digital FTE System (Gold Tier Enhanced)
 Generates a data-driven, critical, strategic weekly audit in 'Bezos Tone'.
 
 Logic:
 1. Analyzes Logs/Action_Logs.json for success rates and error patterns.
 2. Scans 04_Archive/ for completed task volume and types.
 3. Reads 05_Accounting/Monthly_Budget_2026.md for financial health.
-4. Generates Management/WEEKLY_STRATEGY_AUDIT.md.
+4. Fetches Odoo financial data (invoices, payments, receivables).
+5. Reads Management/Social_Media_Summary.md for engagement metrics.
+6. Generates Management/CEO_WEEKLY_BRIEFING.md.
 
 Usage:
     python generate_ceo_audit.py
@@ -27,7 +29,25 @@ LOGS_FILE = BASE_DIR / "Logs" / "Action_Logs.json"
 ARCHIVE_DIR = BASE_DIR / "04_Archive"
 ACCOUNTING_DIR = BASE_DIR / "05_Accounting"
 BUDGET_FILE = ACCOUNTING_DIR / "Monthly_Budget_2026.md"
-OUTPUT_FILE = BASE_DIR / "Management" / "WEEKLY_STRATEGY_AUDIT.md"
+MANAGEMENT_DIR = BASE_DIR / "Management"
+SOCIAL_SUMMARY_FILE = MANAGEMENT_DIR / "Social_Media_Summary.md"
+OUTPUT_FILE = MANAGEMENT_DIR / "CEO_WEEKLY_BRIEFING.md"
+
+# Import Odoo MCP (optional - graceful degradation if not available)
+try:
+    from odoo_mcp_server import OdooMCPServer
+    ODOO_AVAILABLE = True
+except ImportError:
+    ODOO_AVAILABLE = False
+    logger.warning("Odoo MCP not available - financial data will be limited")
+
+# Import social media summary
+try:
+    from social_media_summary import get_weekly_summary, generate_summary_report
+    SOCIAL_AVAILABLE = True
+except ImportError:
+    SOCIAL_AVAILABLE = False
+    logger.warning("Social media summary not available")
 
 # Logging setup
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
@@ -88,7 +108,63 @@ def analyze_financials():
     except Exception as e:
         return {"status": "ERROR", "alerts": [str(e)]}
 
-def generate_report(perf_data, fin_data):
+def analyze_odoo_financials():
+    """Fetch financial data from Odoo if available."""
+    if not ODOO_AVAILABLE:
+        return {"status": "UNAVAILABLE", "message": "Odoo integration not configured"}
+    
+    try:
+        server = OdooMCPServer()
+        
+        # Fetch recent transactions
+        transactions = server.fetch_recent_transactions(days=7)
+        
+        # Calculate metrics
+        total_invoices = len([t for t in transactions if t['type'] == 'invoice'])
+        total_revenue = sum(t['amount'] for t in transactions if t['type'] == 'invoice' and t['state'] == 'posted')
+        pending_revenue = sum(t['amount'] for t in transactions if t['type'] == 'invoice' and t['state'] == 'draft')
+        
+        # Get accounts receivable (if available)
+        try:
+            ar_balance = server.get_account_balance("100000")  # Adjust account code as needed
+        except:
+            ar_balance = None
+        
+        return {
+            "total_invoices": total_invoices,
+            "total_revenue": total_revenue,
+            "pending_revenue": pending_revenue,
+            "ar_balance": ar_balance,
+            "transactions": transactions[:5]  # Last 5 for detail
+        }
+        
+    except Exception as e:
+        logger.error(f"Error fetching Odoo data: {e}")
+        return {"status": "ERROR", "message": str(e)}
+
+def analyze_social_media():
+    """Analyze social media performance from summary file."""
+    if not SOCIAL_AVAILABLE:
+        return {"status": "UNAVAILABLE", "message": "Social media tracking not configured"}
+    
+    try:
+        # Get weekly summary
+        summary = get_weekly_summary()
+        
+        if not summary or summary.get('total_posts', 0) == 0:
+            return {"status": "NO_DATA", "message": "No social media posts in last 7 days"}
+        
+        return {
+            "total_posts": summary['total_posts'],
+            "by_platform": summary['by_platform'],
+            "recent_posts": summary['posts'][-3:] if summary['posts'] else []
+        }
+        
+    except Exception as e:
+        logger.error(f"Error analyzing social media: {e}")
+        return {"status": "ERROR", "message": str(e)}
+
+def generate_report(perf_data, fin_data, odoo_data, social_data):
     """Generate the Markdown report in Bezos Tone."""
     
     timestamp = datetime.now().strftime("%Y-%m-%d")
@@ -134,8 +210,49 @@ def generate_report(perf_data, fin_data):
         elif burn_rate < 50:
              report += "**NOTE:** Underspend detailed. Resources are being underutilized. Acceleration required.\n"
 
+    # Odoo Financial Data
+    report += "\n## 4. Odoo Financial Performance (Real-Time Revenue)\n"
+    
+    if odoo_data.get("status") in ["UNAVAILABLE", "ERROR"]:
+        report += f"**NOTE:** {odoo_data.get('message', 'Odoo data unavailable')}\n"
+    else:
+        report += f"*   **Invoices This Week:** {odoo_data.get('total_invoices', 0)}\n"
+        report += f"*   **Revenue (Posted):** ${odoo_data.get('total_revenue', 0):,.2f}\n"
+        report += f"*   **Revenue (Pending):** ${odoo_data.get('pending_revenue', 0):,.2f}\n"
+        
+        if odoo_data.get('ar_balance'):
+            report += f"*   **Accounts Receivable:** ${odoo_data['ar_balance']:,.2f}\n"
+        
+        if odoo_data.get('pending_revenue', 0) > odoo_data.get('total_revenue', 0):
+            report += "\n**ACTION REQUIRED:** Pending invoices exceed posted revenue. Accelerate approval workflow.\n"
+    
+    # Social Media Performance
+    report += "\n## 5. Social Media Engagement (Brand Velocity)\n"
+    
+    if social_data.get("status") in ["UNAVAILABLE", "ERROR", "NO_DATA"]:
+        report += f"**NOTE:** {social_data.get('message', 'No social media data')}\n"
+    else:
+        report += f"*   **Total Posts This Week:** {social_data.get('total_posts', 0)}\n"
+        report += "*   **By Platform:**\n"
+        
+        for platform, count in social_data.get('by_platform', {}).items():
+            report += f"    *   {platform}: {count}\n"
+        
+        # Show recent posts
+        if social_data.get('recent_posts'):
+            report += "\n*   **Recent Posts:**\n"
+            for post in social_data['recent_posts']:
+                report += f"    *   {post['platform']} ({post['timestamp']}): {post['content'][:50]}...\n"
+        
+        # Performance insights
+        total_posts = social_data.get('total_posts', 0)
+        if total_posts < 5:
+            report += "\n**ALERT:** Social media output is below target (5+ posts/week). Increase content velocity.\n"
+        elif total_posts > 15:
+            report += "\n**NOTE:** High social media output. Ensure quality is maintained over quantity.\n"
+    
     report += """
-## 4. Strategic Memos & Narratives
+## 6. Strategic Memos & Narratives
 **Subject: Raising the Bar on Automation**
 
 We must refuse to accept "good enough" in our automation logic. 
@@ -144,7 +261,8 @@ Fix the root cause, do not patch the symptom.
 
 **Next Week's Mandate:**
 1.  Eliminate one manual touchpoint from the 'Financial Controller' workflow.
-2.  Increase 'Social Media' output velocity by 20% without sacrificing the Triple-Draft rule.
+2.  Increase 'Social Media' output velocity by 20% without sacrificing quality.
+3.  Ensure all Odoo invoices are approved within 24 hours of creation.
 
 *End of Report.*
 """
@@ -159,11 +277,19 @@ Fix the root cause, do not patch the symptom.
     print(f"DONE: Generated {OUTPUT_FILE}")
 
 def main():
-    logger.info("Starting Weekly Strategy Audit...")
+    logger.info("Starting Weekly CEO Briefing Generation...")
+    
+    # Gather all data sources
     logs = load_logs()
     perf_data = analyze_performance(logs)
     fin_data = analyze_financials()
-    generate_report(perf_data, fin_data)
+    odoo_data = analyze_odoo_financials()
+    social_data = analyze_social_media()
+    
+    # Generate comprehensive report
+    generate_report(perf_data, fin_data, odoo_data, social_data)
+    
+    logger.info("CEO Briefing generation complete")
 
 if __name__ == "__main__":
     main()

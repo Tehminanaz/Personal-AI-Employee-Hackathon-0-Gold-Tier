@@ -23,6 +23,16 @@
 **System Triggers:**
 > **AUDIT MANDATE:** When the file `RUN_AUDIT.md` appears in the Inbox, you MUST execute `python generate_ceo_audit.py` immediately and create the report in `Management/`.
 
+> **⚠️ STRICT NAMING RULE:** When creating a plan for `filename.md`, you **MUST** name it exactly `PLAN_filename.md`. 
+> - **DO NOT** add dates, timestamps, or extra words.
+> - **DO NOT** change capitalization.
+> - **EXAMPLE:** If input is `Email_Funding_Request.md`, plan MUST be `PLAN_Email_Funding_Request.md`.
+
+> **⚡ EXECUTION TRIGGER:** If you see a file in the Inbox that ALREADY starts with `PLAN_`, it means the plan is **APPROVED**.
+> - **DO NOT** create a new plan.
+> - **IMMEDIATELY** execute the steps in the plan.
+> - **GENERATE** final output in `02_Pending_Approval/`.
+
 **Non-compliance with Company Handbook rules is NOT ACCEPTABLE.**
 
 **Pre-Task Checklist:**
@@ -94,9 +104,37 @@ All tasks are automatically wrapped with a standardized expert prompt that inclu
 - **Automated testing requirements**
 - **Output specification to `02_Pending_Approval/` after tests pass**
 
+    - `.claude/skills/skill-creator/SKILL.md` - Creating new skills and capabilities
+    - `.claude/skills/web-executor/SKILL.md` - Rapid web development, technical execution, deployment
+  - **`CLAUDE.md` operational rules**
+  - **Automated testing requirements**
+  - **Output specification to `02_Pending_Approval/` after tests pass**
+
 This ensures consistent, high-quality task processing across all providers.
 
 For detailed provider setup instructions, see `PROVIDER_SETUP.md`.
+
+---
+
+## 🧠 Memory & Proactive Logic
+
+### Memory Vault Protocol
+**MANDATORY RULE:** After completing ANY task, you MUST:
+1.  Extract **1 Key Learning** or **User Preference** from the interaction.
+2.  Append it to `Memory_Vault.md` in the root directory.
+    - Format: `- [YYYY-MM-DD] [Category] Insight`
+    - Example: `- [2026-01-15] [Preference] User prefers table format for financial data.`
+This is your Long-Term Memory. Use it to improve future performance.
+
+### Shadow CEO Logic (Proactive Mode)
+**TRIGGER:** If the `00_Inbox` is empty for more than 2 cycles (or you are triggered by `TRIGGER_PROACTIVE.md`), you MUST:
+1.  Read `Vision_2026.md` (Strategic Goals).
+2.  Read `Company_Handbook.md` (Operational Rules).
+3.  Read `Memory_Vault.md` (Past Learnings).
+4.  Generate **ONE High-Impact Strategic Task** to move closer to 2026 goals.
+5.  Create a file `00_Inbox/PROACTIVE_SUGGESTION.md` detailing this task.
+    - Title: `PROACTIVE: [Strategic Action Name]`
+    - Content: Why this matters, how it aligns with Vision 2026, and proposed plan.
 
 ---
 

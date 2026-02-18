@@ -1,0 +1,14 @@
+2026-01-18 02:16:13,890 - ActionExecutor - INFO - Starting Action Executor (Polling Mode)...
+2026-01-18 02:16:13,890 - ActionExecutor - INFO - Monitoring: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\03_Approved
+2026-01-18 02:46:29,513 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 02:46:30,542 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 02:46:30,556 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_024630.py
+2026-01-18 02:47:00,586 - ActionExecutor - ERROR - Error executing test test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_024630.py: Command '['C:\\Users\\Kashan\\Documents\\Digital labor\\digital_labor2 - Copy\\.venv\\Scripts\\python.exe', 'C:\\Users\\Kashan\\Documents\\Digital labor\\digital_labor2 - Copy\\Tests\\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_024630.py']' timed out after 30 seconds
+2026-01-18 02:47:00,588 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md. Task not executed.
+2026-01-18 02:47:00,668 - ActionExecutor - INFO - Audit log updated: FAILURE
+2026-01-18 02:53:05,994 - ActionExecutor - INFO - New approved task detected: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 02:53:07,015 - ActionExecutor - INFO - Generating tests for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md
+2026-01-18 02:53:07,028 - ActionExecutor - INFO - Generated test file: C:\Users\Kashan\Documents\Digital labor\digital_labor2 - Copy\Tests\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_025307.py
+2026-01-18 02:53:37,081 - ActionExecutor - ERROR - Error executing test test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_025307.py: Command '['C:\\Users\\Kashan\\Documents\\Digital labor\\digital_labor2 - Copy\\.venv\\Scripts\\python.exe', 'C:\\Users\\Kashan\\Documents\\Digital labor\\digital_labor2 - Copy\\Tests\\test_P1_EMAIL_Response_AI_Project_Proposal_Request_20260118_20260118_025307.py']' timed out after 30 seconds
+2026-01-18 02:53:37,082 - ActionExecutor - ERROR - Tests failed for critical task: P1_EMAIL_Response_AI_Project_Proposal_Request_20260118.md. Task not executed.
+2026-01-18 02:53:37,357 - ActionExecutor - INFO - Audit log updated: FAILURE

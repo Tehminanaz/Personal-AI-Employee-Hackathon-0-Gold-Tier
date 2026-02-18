@@ -1,0 +1,4 @@
+2026-01-18 02:18:01,211 - GmailWatcher - INFO - Starting Gmail Watcher...
+2026-01-18 02:18:01,263 - googleapiclient.discovery_cache - INFO - file_cache is only supported with oauth2client<4.0.0
+2026-01-18 02:18:01,267 - GmailWatcher - INFO - Authenticated successfully. Polling every 10 seconds.
+2026-01-18 02:18:43,765 - GmailWatcher - INFO - Gmail Watcher stopped by user.
